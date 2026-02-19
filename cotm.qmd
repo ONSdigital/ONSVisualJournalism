@@ -1,0 +1,45 @@
+---
+title: "Chart of the month"
+format: html
+---
+
+Each month, we nominate and vote for a chart of month, based on
+
+- Impact
+- Novelty
+- Clarity
+- Aesthetics
+- Impact
+- General love
+
+
+Here's a few examples of charts that we have loved in the past:
+
+:::: {.carousel .dark .framed indicators="true" controls="true"}
+
+:::: {.carousel-item image="images/COTM/chart1.png" height="400px" caption="ONS Surveys"}
+:::
+
+:::: {.carousel-item image="images/COTM/chart2.png" caption="Long Term International Migration"}
+:::
+
+:::: {.carousel-item image="images/COTM/chart3.png" caption="UK trade"}
+:::
+
+:::: {.carousel-item image="images/COTM/chart4.png" cation="Ownership of UK quoted shares"}
+:::
+
+:::: {.carousel-item image="images/COTM/chart5.png" caption="Deaths related to drug poisoning in England and Wales"}
+:::
+
+:::: {.carousel-item image="images/COTM/chart6.png" caption="Marriages and Divorces in England and Wales"}
+:::
+
+:::: {.carousel-item image="images/COTM/chart7.png" caption="GDP monthly estimate, UK"}
+:::
+
+
+:::
+
+
+

@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "ONS Visual Journalism"
+  navbar:
+    search: false
+    left:
+      - href: index.qmd
+        text: Home
+      - whoarewe.qmd
+      - resources.qmd
+      - cotm.qmd
+      - visualvocabulary.qmd
+      - text: Blog
+        href: https://fa1rvwwsxx343.ons.statistics.gov.uk/users/ClaireP/1.%20charts_for_projects/ONSVJ_blog/
+  favicon: logo.png
+
+format:
+  html:
+    page-layout: full
+    anchor-sections: false
+    link-external-newwindow: true
+    theme:
+      - cosmo
+      - ONSstyle.scss
+    toc: true
+
+filters:
+  - carousel    
+
+
+
+

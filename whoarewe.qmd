@@ -1,0 +1,10 @@
+---
+title: "Who are we"
+format: html
+---
+
+Our team focuses on improving the understanding and engagement with ONS analysis. We offer a range of services in data visualisation, journalism, graphic design, content design and social media.
+
+We can help you select the most engaging format for presentation and structure the content to be suitable for all types of audiences, especially those from a non-statistical background, by communicating clearly the strengths and limitations of the data in an accessible, digestible way.
+
+You can contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk) and we will set up a consultation to see how we can best support you.

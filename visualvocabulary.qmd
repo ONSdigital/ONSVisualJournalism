@@ -1,0 +1,12 @@
+---
+title: "Visual Vocabulary"
+format: html
+---
+
+
+[ONS Charts cheat sheet](https://officenationalstatistics.sharepoint.com/sites/digpub/DigPub/Forms/AllItems.aspx?id=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training%2FONS%20charts%20cheat%20sheet%20%2D%20Nov%202025%2Epdf&parent=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training)
+
+[Data visualisation in the Service Manual](https://service-manual.ons.gov.uk/data-visualisation)
+
+[Standard website charts](https://service-manual.ons.gov.uk/design-system/components#charts)
+

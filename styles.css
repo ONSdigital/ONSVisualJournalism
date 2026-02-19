@@ -1,0 +1,10 @@
+/* css styles */
+h1.title {
+    color:#206095;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #206095;
+}
+a {
+    color: #206095;
+}
