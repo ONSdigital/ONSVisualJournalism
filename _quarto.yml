@@ -14,7 +14,7 @@ website:
       - cotm.qmd
       - visualvocabulary.qmd
       - text: Blog
-        href: https://fa1rvwwsxx343.ons.statistics.gov.uk/users/ClaireP/1.%20charts_for_projects/ONSVJ_blog/
+        href: blog.qmd
   favicon: logo.png
 
 format:
