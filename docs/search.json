@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "whoarewe.html",
+    "href": "whoarewe.html",
+    "title": "Who are we",
+    "section": "",
+    "text": "Our team focuses on improving the understanding and engagement with ONS analysis. We offer a range of services in data visualisation, journalism, graphic design, content design and social media.\nWe can help you select the most engaging format for presentation and structure the content to be suitable for all types of audiences, especially those from a non-statistical background, by communicating clearly the strengths and limitations of the data in an accessible, digestible way.\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "For consultancy/advice - contact us\n\n\n\n\n\n\n\nCharts\n\n\nSubtitle about charts\n\n\n\n\n\n\n\n\n\n\n\nMap templates\n\n\nSubtitle about map templates\n\n\n\n\n\n\n\n\n\n\n\nONSvisual\n\n\nSubtitle about ONSvisual\n\n\n\n\n\n\n\n\n\n\n\nService manual\n\n\nSubtitle about service manual\n\n\n\n\n\n\n\n\n\n\n\nExplore Local Statistics\n\n\nSubtitle about ELS\n\n\n\n\n\n\n\n\n\n\n\nUK Administrative Geographies\n\n\nSubtitle about tool for downloading UK geographies 2014–2025\n\n\n\n\n\n\n\n\n\n\n\nTraining\n\n\nA code library of helpful snippets\n\n\n\n\n\n\n\n\n\n\n\nONS Charts cheat sheet\n\n\nSubtitle about cheat sheet"
+  },
+  {
+    "objectID": "cotm.html",
+    "href": "cotm.html",
+    "title": "Chart of the month",
+    "section": "",
+    "text": "Each month, we nominate and vote for a chart of month, based on\n\nImpact\nNovelty\nClarity\nAesthetics\nImpact\nGeneral love\n\nHere’s a few examples of charts that we have loved in the past:\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\nONS Surveys\n\n\n\n\n\nLong Term International Migration\n\n\n\n\n\nUK trade\n\n\n\n\n\n\n\n\nDeaths related to drug poisoning in England and Wales\n\n\n\n\n\nMarriages and Divorces in England and Wales\n\n\n\n\n\nGDP monthly estimate, UK\n\n\n\n      \n      \n      Previous\n      \n    \n      \n      \n      Next"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "blog.html#dueling-with-axis-the-problems-with-dual-axis-charts",
+    "href": "blog.html#dueling-with-axis-the-problems-with-dual-axis-charts",
+    "title": "Blog",
+    "section": "Dueling with axis: the problems with dual axis charts",
+    "text": "Dueling with axis: the problems with dual axis charts\nCharts with two different y-axis are often used in the reporting of statistics. They can display two or more related variables together that may use different units, or where one series is orders of magnitude higher or lower than another. But dual axis charts come with a host of problems that make them confusing, and even misleading.\nIt’s important to remember that saying something with a chart is not so different to saying it in text – we’re just using a different vocabulary. We would see it as a glaring mistake to say “10 is bigger than 100” in writing, yet with dual axis charts we often say this visually. It should set the same alarm bells ringing in our minds.\nTake the following chart. “Gold” has a small amount of growth, but it’s tricky to see. We decided that we need to show “Gold” more effectively despite the tiny change relative to “Blue”.\n\nWe often resort to dual axis charts to bring out both of these messages. Here’s a reworked version done in a way we often see applied in statistical publications.\n\nBy putting several lines or bars on the same canvas we are inviting the user to make comparisons – as they might intuitively do with a regular line chart. Consider the following statements about our Blue compared with Gold dual axis chart:\n“Gold grew faster than Blue” “Gold started lower than Blue in 2013, but was higher in 2018” “Gold overtook Blue around 2016” They are all incorrect, but can we blame a less statistically literate user, or even an expert short on time for making them? After all, without studying the axis, the visual elements of the chart do suggest these to be true.\nNow let’s break down a real life example.\nThe following chart suffers from a similar problem as our first chart. Both lines are very different in magnitude, but both exhibit subtle and important trends we need to describe. Again, the chart is a very faithful representation of the data, but just looks like two, broadly flat lines. It’s fairly uninspiring."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ONS Visual Journalism",
+    "section": "",
+    "text": "Our team focuses on improving the understanding and engagement with ONS analysis. We offer a range of services in data visualisation, journalism, graphic design, content design and social media.\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\nConsumer card spending, e-commerce and digital trade insights in the\nUK: 2019 to 2025\n\n\n\n\n\nEconomic activity and social change in the UK, real-time indicators:\n12 February 2026\n\n\n\n\n\nUK trade: December 2025\n\n\n\n\n\nGDP monthly estimate, UK: December 2025\n\n\n\n\n\nGDP monthly estimate, UK: December 2025\n\n\n\n\n\nProductivity flash estimate and overview, UK: October to December\n2025 and July to September 2025\n\n\n\n      \n      \n      Previous\n      \n    \n      \n      \n      Next\n      \n    \n\nContact us at digitalcontent@ons.gov.uk"
+  },
+  {
+    "objectID": "visualvocabulary.html",
+    "href": "visualvocabulary.html",
+    "title": "Visual Vocabulary",
+    "section": "",
+    "text": "ONS Charts cheat sheet\nData visualisation in the Service Manual\nStandard website charts"
+  }
+]
