@@ -15,31 +15,27 @@ Each month, we nominate and vote for a chart of month, based on
 
 Here's a few examples of charts that we have loved in the past:
 
-:::: {.carousel .dark .framed indicators="true" controls="true"}
+```{=html}
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <iframe height="535px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc3339/fig03/index.html"></iframe>
+    </div>
+    <div class="carousel-item">
+      <iframe height="900px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc661/suicides/index.html"></iframe>
+    </div>
+        <div class="carousel-item">
+      <iframe height="893px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc3339/fig06/index.html"></iframe>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-:::: {.carousel-item image="images/COTM/chart1.png" height="400px" caption="ONS Surveys"}
-:::
-
-:::: {.carousel-item image="images/COTM/chart2.png" caption="Long Term International Migration"}
-:::
-
-:::: {.carousel-item image="images/COTM/chart3.png" caption="UK trade"}
-:::
-
-:::: {.carousel-item image="images/COTM/chart4.png" cation="Ownership of UK quoted shares"}
-:::
-
-:::: {.carousel-item image="images/COTM/chart5.png" caption="Deaths related to drug poisoning in England and Wales"}
-:::
-
-:::: {.carousel-item image="images/COTM/chart6.png" caption="Marriages and Divorces in England and Wales"}
-:::
-
-:::: {.carousel-item image="images/COTM/chart7.png" caption="GDP monthly estimate, UK"}
-:::
-
-
-:::
-
-
-
+```
