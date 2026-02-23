@@ -5,28 +5,6 @@ title: "ONS Visual Journalism"
 Our team focuses on improving the understanding and engagement with ONS analysis.
 We offer a range of services in data visualisation, journalism, graphic design, content design and social media.
 
-:::: {.carousel .dark .framed indicators="true" controls="true"}
-
-:::: {.carousel-item image="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2158.png" caption="Consumer card spending, e-commerce and digital trade insights in the UK: 2019 to 2025"}
-:::
-
-:::: {.carousel-item image="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2159.png" caption="Economic activity and social change in the UK, real-time indicators: 12 February 2026"}
-:::
-
-:::: {.carousel-item image="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2161.png" caption="UK trade: December 2025"}
-:::
-
-:::: {.carousel-item image="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2172.png" caption="GDP monthly estimate, UK: December 2025"}
-:::
-
-:::: {.carousel-item image="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2175.png" caption="GDP monthly estimate, UK: December 2025"}
-:::
-
-:::: {.carousel-item image="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2176.png" caption="Productivity flash estimate and overview, UK: October to December 2025 and July to September 2025"}
-:::
-
-:::
-
 Contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk)
 
 

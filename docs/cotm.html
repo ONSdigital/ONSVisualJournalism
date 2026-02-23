@@ -158,13 +158,29 @@ ul.task-list li input[type="checkbox"] {
 <li>General love</li>
 </ul>
 <p>Here’s a few examples of charts that we have loved in the past:</p>
-<div id="carouselExample" class="carousel slide">
+<script> 
+document.addEventListener('DOMContentLoaded', function () { 
+  const carousel = document.getElementById('carouselExample'); 
+  carousel.addEventListener('slide.bs.carousel', function (event) { 
+  const iframe = event.relatedTarget.querySelector('iframe');
+  if (iframe) { const src = iframe.src; iframe.src = src; } 
+  }); 
+  }); 
+ </script>
+
+<div id="carouselExample" class="carousel slide" data-bs-theme="dark">
   <div class="carousel-inner">
+     <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
     <div class="carousel-item active">
-      <iframe height="535px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc3339/fig03/index.html"></iframe>
+      <iframe height="900px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc661/suicides/index.html"></iframe>
     </div>
     <div class="carousel-item">
-      <iframe height="900px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc661/suicides/index.html"></iframe>
+      
+      <iframe height="535px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc3339/fig03/index.html"></iframe>
     </div>
         <div class="carousel-item">
       <iframe height="893px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc3339/fig06/index.html"></iframe>
