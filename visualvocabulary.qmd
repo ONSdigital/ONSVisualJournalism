@@ -3,10 +3,52 @@ title: "Visual Vocabulary"
 format: html
 ---
 
+::: {.grid}
 
-[ONS Charts cheat sheet](https://officenationalstatistics.sharepoint.com/sites/digpub/DigPub/Forms/AllItems.aspx?id=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training%2FONS%20charts%20cheat%20sheet%20%2D%20Nov%202025%2Epdf&parent=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training)
+::: {.g-col-12 .g-col-md-4}
+<a href="https://officenationalstatistics.sharepoint.com/sites/digpub/DigPub/Forms/AllItems.aspx?id=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training%2FONS%20charts%20cheat%20sheet%20%2D%20Nov%202025%2Epdf&parent=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training"  class="text-decoration-none">
+<div class="card h-100">
+<img src="images/resources_thumbnails/cheatsheet.png" class="card-img-top">
+<div class="card-body d-flex flex-column">
+<h4 class="card-title">ONS Charts cheat sheet</h4>
+<p class="card-subtitle">Choose the right chart type to show the 
+insights in your data.</p>
+</div>
+</div>
+</a>
 
-[Data visualisation in the Service Manual](https://service-manual.ons.gov.uk/data-visualisation)
+:::
 
-[Standard website charts](https://service-manual.ons.gov.uk/design-system/components#charts)
+::: {.g-col-12 .g-col-md-4}
 
+<a href="https://service-manual.ons.gov.uk/data-visualisation" class="text-decoration-none">
+<div class="card h-100">
+<img src="images/resources_thumbnails/servicemanual.png" class="card-img-top">
+<div class="card-body d-flex flex-column">
+<h4 class="card-title">Service manual</h4>
+<p class="card-subtitle">Guidance for creating charts and tables and best practice for using colour in your work.</p>
+</div>
+</div>
+</a>
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="https://github.com/ONSvisual/Charts" class="text-decoration-none">
+<div class="card h-100">
+<img src="images/resources_thumbnails/charts.png" class="card-img-top">
+<div class="card-body d-flex flex-column">
+<h4 class="card-title">Charts</h4>
+<p class="card-subtitle">ONS chart components</p>
+</div>
+</div>
+</a>
+
+:::
+
+:::
+
+
+
+<div id="footer">
+You can contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk) and we will set up a consultation to see how we can best support you.</div>

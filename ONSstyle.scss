@@ -216,3 +216,21 @@ section.has-light-background a, section.has-light-background a:hover {
   font-size:75%;
   font-weight: 100;
   }
+
+  #footer {
+    position: fixed;
+    height:60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #003c57;
+    color: #bdccd3;
+    text-align: center;
+    font-size: 100%;
+    padding: 16px 10px 10px 10px;
+    z-index: 1040;
+  }
+  #footer a {
+    color: $ons-white;
+    text-decoration: none;
+  }
