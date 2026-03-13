@@ -3,7 +3,6 @@ title: "Resources"
 
 ---
 
-For consultancy/advice - [contact us](mailto: digitalcontent@ons.gov.uk)
 
 ::: {.grid}
 
