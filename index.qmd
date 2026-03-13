@@ -14,8 +14,8 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 <div class="card h-100">
 <img src="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2158.png" class="card-img-top">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">Economic activity and social change in the UK, real-time indicators: 12 March 2026</h4>
-<p class="card-subtitle">2026-03-12</p>
+<h4 class="card-title-index">Economic activity and social change in the UK, real-time indicators: 12 March 2026</h4>
+<p class="card-subtitle-index">2026-03-12</p>
 </div>
 </div>
 </a>
@@ -27,8 +27,8 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 <div class="card h-100">
 <img src="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2211.png" class="card-img-top">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">High streets and retail areas in Great Britain: March 2026</h4>
-<p class="card-subtitle">2026-03-10</p>
+<h4 class="card-title-index">High streets and retail areas in Great Britain: March 2026</h4>
+<p class="card-subtitle-index">2026-03-10</p>
 </div>
 </div>
 </a>
@@ -40,8 +40,8 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 <div class="card h-100">
 <img src="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2209.png" class="card-img-top">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">Economic activity and social change real-time indicators, UK, dashboard</h4>
-<p class="card-subtitle">2026-03-05</p>
+<h4 class="card-title-index">Economic activity and social change real-time indicators, UK, dashboard</h4>
+<p class="card-subtitle-index">2026-03-05</p>
 </div>
 </div>
 </a>
@@ -53,8 +53,8 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 <div class="card h-100">
 <img src="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2158.png" class="card-img-top">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">Consumer card spending, e-commerce and digital trade insights in the UK: 2019 to 2025</h4>
-<p class="card-subtitle">2026-02-06</p>
+<h4 class="card-title-index">Consumer card spending, e-commerce and digital trade insights in the UK: 2019 to 2025</h4>
+<p class="card-subtitle-index">2026-02-06</p>
 </div>
 </div>
 </a>
@@ -66,8 +66,8 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 <div class="card h-100">
 <img src="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2159.png" class="card-img-top">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">Economic activity and social change in the UK, real-time indicators: 12 February 2026</h4>
-<p class="card-subtitle">2026-02-05</p>
+<h4 class="card-title-index">Economic activity and social change in the UK, real-time indicators: 12 February 2026</h4>
+<p class="card-subtitle-index">2026-02-05</p>
 </div>
 </div>
 </a>
@@ -79,8 +79,8 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 <div class="card h-100">
 <img src="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2161.png" class="card-img-top">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">UK trade: December 2025</h4>
-<p class="card-subtitle">2026-02-12</p>
+<h4 class="card-title-index">UK trade: December 2025</h4>
+<p class="card-subtitle-index">2026-02-12</p>
 </div>
 </div>
 </a>
@@ -92,8 +92,8 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 <div class="card h-100">
 <img src="https://onsdigital.github.io/get-ons-vis-screenshots/screenshots/2172.png" class="card-img-top">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">GDP monthly estimate, UK: December 2025</h4>
-<p class="card-subtitle">date</p>
+<h4 class="card-title-index">GDP monthly estimate, UK: December 2025</h4>
+<p class="card-subtitle-index">2026-02-12</p>
 </div>
 </div>
 </a>

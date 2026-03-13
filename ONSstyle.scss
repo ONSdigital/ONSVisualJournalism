@@ -207,3 +207,12 @@ section.has-light-background a, section.has-light-background a:hover {
   object-fit: cover;   
   width: 100%;
 }
+.card-subtitle-index {
+  font-weight: $headings-font-weight;
+  font-size: 80%;
+  margin-bottom: 1.3rem;
+}
+.card-text-index { 
+  font-size:75%;
+  font-weight: 100;
+  }
