@@ -37,3 +37,6 @@ The following chart suffers from a similar problem as our first chart. Both line
 ![](images/blog/blog4.png){width=500px}
 ![](images/blog/blog5.png){width=500px}
 ![](images/blog/blog6.png){width=500px}
+
+<div id="footer">
+You can contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk) and we will set up a consultation to see how we can best support you.</div>
