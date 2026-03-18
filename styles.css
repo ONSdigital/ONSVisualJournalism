@@ -8,3 +8,12 @@ h1.title {
 a {
     color: #206095;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+iframe { margin: 0 auto; display: block; }
+
