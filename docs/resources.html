@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-71d427441d91ce4c821645d42d566861.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0bbed026a8eec26ccde9a8ca12d9cd5e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -148,7 +147,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>For consultancy/advice - <a href="mailto:%20digitalcontent@ons.gov.uk">contact us</a></p>
 <div class="grid">
 <div class="g-col-12 g-col-md-4">
 <a href="https://github.com/ONSvisual/Charts" class="text-decoration-none">
@@ -271,6 +269,9 @@ Subtitle about cheat sheet
 </a><p><a href="https://officenationalstatistics.sharepoint.com/sites/digpub/DigPub/Forms/AllItems.aspx?id=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training%2FONS%20charts%20cheat%20sheet%20%2D%20Nov%202025%2Epdf&amp;parent=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training" class="text-decoration-none"></a></p>
 </div>
 </div>
+<div id="footer">
+You can contact us at <a href="mailto:digitalcontent@ons.gov.uk">digitalcontent@ons.gov.uk</a> and we will set up a consultation to see how we can best support you.
+</div>
 
 
 
@@ -319,14 +320,13 @@ Subtitle about cheat sheet
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
