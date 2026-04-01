@@ -1,0 +1,76 @@
+---
+title: "Library"
+format: html
+---
+
+Resources that we have found useful for data visualisation work.
+
+```{r}
+library(DT)
+library(readr)
+data <- read_csv("data/library.csv")
+section_index <- which(names(data) == "Section") - 1
+
+# Set widths per column (in px). Change these values as needed.
+column_widths <- c(
+	"Name/Alt text" = 300,
+	"URL" = 320,
+	"Section" = 120,
+	"Medium" = 120
+)
+
+column_defs <- lapply(names(column_widths), function(column_name) {
+	list(
+		width = paste0(column_widths[[column_name]], "px"),
+		targets = which(names(data) == column_name) - 1
+	)
+})
+
+DT::datatable(
+	data,
+	filter = "top",
+	rownames = FALSE,
+	options = list(
+		pageLength = 10,
+		autoWidth = FALSE,
+		columnDefs = column_defs,
+		initComplete = JS(sprintf(
+			"function() {
+				var api = this.api();
+				var sectionIdx = %d;
+				var headerRows = $(api.table().node()).find('thead tr');
+				var filterRow = headerRows.last();
+
+				if (!filterRow.length || filterRow.find('input').length === 0) {
+					return;
+				}
+
+				var filterCell = filterRow.find('th').eq(sectionIdx);
+				var existingInput = filterCell.find('input');
+
+				if (!filterCell.length || !existingInput.length) {
+					return;
+				}
+
+				var select = $('<select style=\"width: 100%%;\"><option value=\"\">All</option></select>')
+					.appendTo(filterCell.empty())
+					.on('change', function() {
+						var val = $.fn.dataTable.util.escapeRegex($(this).val());
+						api.column(sectionIdx).search(val ? '^' + val + '$' : '', true, false).draw();
+					});
+
+				api.column(sectionIdx).data().unique().sort().each(function(d) {
+					if (d !== null && d !== undefined && d !== '') {
+						select.append('<option value=\"' + d + '\">' + d + '</option>');
+					}
+				});
+			}",
+			section_index
+		))
+	)
+)
+```
+
+<div id="footer">
+You can contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk) and we will set up a consultation to see how we can best support you.</div>
+
