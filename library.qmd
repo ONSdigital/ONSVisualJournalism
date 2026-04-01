@@ -5,11 +5,24 @@ format: html
 
 Resources that we have found useful for data visualisation work.
 
-```{r}
-library(DT)
-library(readr)
-data <- read_csv("data/library.csv")
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+suppressPackageStartupMessages(library(DT))
+suppressPackageStartupMessages(library(readr))
+data <- read_csv("data/library.csv", show_col_types = FALSE)
 section_index <- which(names(data) == "Section") - 1
+url_index <- which(names(data) == "URL")
+
+if (length(url_index) == 1) {
+	data$URL <- ifelse(
+		is.na(data$URL) | data$URL == "",
+		"",
+		sprintf(
+			'<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>',
+			data$URL,
+			htmltools::htmlEscape(data$URL)
+		)
+	)
+}
 
 # Set widths per column (in px). Change these values as needed.
 column_widths <- c(
@@ -29,6 +42,7 @@ column_defs <- lapply(names(column_widths), function(column_name) {
 DT::datatable(
 	data,
 	filter = "top",
+	escape = if (length(url_index) == 1) which(names(data) != "URL") else TRUE,
 	rownames = FALSE,
 	options = list(
 		pageLength = 10,
