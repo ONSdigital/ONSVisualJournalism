@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Chart of the month – ONS Visual Journalism</title>
+<title>Library – ONS Visual Journalism</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-0bbed026a8eec26ccde9a8ca12d9cd5e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/carousel-0.1.0/quarto-carousel.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +67,34 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+
+<script src="site_libs/datatables-binding-0.34.0/datatables.js"></script>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+
 
 
 </head>
@@ -101,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cotm.html" aria-current="page"> 
+    <a class="nav-link" href="./cotm.html"> 
 <span class="menu-text">Chart of the month</span></a>
   </li>  
   <li class="nav-item">
@@ -109,12 +136,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Visual Vocabulary</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./library.html"> 
+    <a class="nav-link active" href="./library.html" aria-current="page"> 
 <span class="menu-text">Library</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -135,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Chart of the month</h1>
+<h1 class="title">Library</h1>
 </div>
 
 
@@ -152,120 +175,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Each month, we nominate and vote for a chart of month, based on</p>
-<ul>
-<li>Impact</li>
-<li>Novelty</li>
-<li>Clarity</li>
-<li>Aesthetics</li>
-<li>Impact</li>
-<li>General love</li>
-</ul>
-<p>Here’s a few examples of charts that we have loved in the past:</p>
-<div id="quarto-carousel-1" class="carousel carousel-dark slide carousel-framed" data-bs-ride="carousel">
-<div class="carousel-indicators">
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="0" class=" active" aria-current="true" aria-label="Slide 1"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="1" class="" aria-label="Slide 2"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="2" class="" aria-label="Slide 3"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="3" class="" aria-label="Slide 4"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="4" class="" aria-label="Slide 5"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="5" class="" aria-label="Slide 6"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="6" class="" aria-label="Slide 7"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="7" class="" aria-label="Slide 8"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="8" class="" aria-label="Slide 9"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="9" class="" aria-label="Slide 10"></button>
-  
-  <button type="button" data-bs-target="#quarto-carousel-1" data-bs-slide-to="10" class="" aria-label="Slide 11"></button>
-  
+<p>Resources that we have found useful for data visualisation work.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-217b46746509166c4f61" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-217b46746509166c4f61">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Natural cooling: how we are better measuring the local value of nature for urban cooling","How we’re putting everything you need to know about a dataset on one page","Dueling with axis: the problems with dual axis charts","Stacking the bars in your favour!","Making visualizations literally w/ Svelte &amp; D3","COLORBREWER 2.0","D3 in Depth","Build your own Svelte","Fundamentals of Data Visualization","Open Geography Portal","Your First Data Visualization With Svelte &amp; D3","Creative Coding: Making Visuals with JavaScript","JS training","Svelte data vis videos from Mathias Stahl","Fundamentals of Data Visualization","Invisible Women: Data Bias in a World Designed for Men","Pokemon based colour picker","JSON validator - useful for identifying missing brackets etc in large and/or nested json files","Colour ramp generator - a bit like colorBrewer but more fancy"],["<a href=\"https://blog.ons.gov.uk/2025/12/05/natural-cooling-how-we-are-better-measuring-the-local-value-of-nature-for-urban-cooling/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.ons.gov.uk/2025/12/05/natural-cooling-how-we-are-better-measuring-the-local-value-of-nature-for-urban-cooling/<\/a>","<a href=\"https://onsdigital.blog.gov.uk/2025/04/08/how-were-putting-everything-you-need-to-know-about-a-dataset-on-one-page/\" target=\"_blank\" rel=\"noopener noreferrer\">https://onsdigital.blog.gov.uk/2025/04/08/how-were-putting-everything-you-need-to-know-about-a-dataset-on-one-page/<\/a>","<a href=\"https://digitalblog.ons.gov.uk/2019/07/03/dueling-with-axis-the-problems-with-dual-axis-charts/\" target=\"_blank\" rel=\"noopener noreferrer\">https://digitalblog.ons.gov.uk/2019/07/03/dueling-with-axis-the-problems-with-dual-axis-charts/<\/a>","<a href=\"https://digitalblog.ons.gov.uk/2017/08/17/stacking-the-bars-in-your-favour/\" target=\"_blank\" rel=\"noopener noreferrer\">https://digitalblog.ons.gov.uk/2017/08/17/stacking-the-bars-in-your-favour/<\/a>","<a href=\"https://v4.connorrothschild.com/post/svelte-and-d3\" target=\"_blank\" rel=\"noopener noreferrer\">https://v4.connorrothschild.com/post/svelte-and-d3<\/a>","<a href=\"https://colorbrewer2.org/\" target=\"_blank\" rel=\"noopener noreferrer\">https://colorbrewer2.org/<\/a>","<a href=\"https://www.d3indepth.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.d3indepth.com/<\/a>","<a href=\"https://www.youtube.com/c/lihautan\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/c/lihautan<\/a>","<a href=\"https://clauswilke.com/dataviz/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://clauswilke.com/dataviz/index.html<\/a>","<a href=\"https://geoportal.statistics.gov.uk/\" target=\"_blank\" rel=\"noopener noreferrer\">https://geoportal.statistics.gov.uk/<\/a>","<a href=\"https://www.youtube.com/watch?v=-THp2YVYEFc\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/watch?v=-THp2YVYEFc<\/a>","<a href=\"https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript<\/a>","<a href=\"https://www.freecodecamp.org/learn\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.freecodecamp.org/learn<\/a>","<a href=\"https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8<\/a>","<a href=\"https://clauswilke.com/dataviz/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://clauswilke.com/dataviz/index.html<\/a>","<a href=\"https://www.amazon.co.uk/Invisible-Women-Data-World-Designed/dp/1419729071\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.amazon.co.uk/Invisible-Women-Data-World-Designed/dp/1419729071<\/a>","<a href=\"https://pokepalettes.com/#bulbasaur\" target=\"_blank\" rel=\"noopener noreferrer\">https://pokepalettes.com/#bulbasaur<\/a>","<a href=\"https://jsonlint.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://jsonlint.com/<\/a>","<a href=\"https://rampgenerator.com\" target=\"_blank\" rel=\"noopener noreferrer\">https://rampgenerator.com<\/a>"],["blog","blog","blog","blog","learning","resource","learning","learning","learning","resource","learning","learning","learning","learning","learning","resource","resource","resource","resource"],["website","website","website","website","website","website","website","video","website","website","video","video","website","video","book","book","website","website","website"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Name/Alt text<\/th>\n      <th>URL<\/th>\n      <th>Section<\/th>\n      <th>Medium<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"autoWidth":false,"columnDefs":[{"width":"300px","targets":0},{"width":"320px","targets":1},{"width":"120px","targets":2},{"width":"120px","targets":3},{"name":"Name/Alt text","targets":0},{"name":"URL","targets":1},{"name":"Section","targets":2},{"name":"Medium","targets":3}],"initComplete":"function() {\n\t\t\t\tvar api = this.api();\n\t\t\t\tvar sectionIdx = 2;\n\t\t\t\tvar headerRows = $(api.table().node()).find('thead tr');\n\t\t\t\tvar filterRow = headerRows.last();\n\n\t\t\t\tif (!filterRow.length || filterRow.find('input').length === 0) {\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tvar filterCell = filterRow.find('th').eq(sectionIdx);\n\t\t\t\tvar existingInput = filterCell.find('input');\n\n\t\t\t\tif (!filterCell.length || !existingInput.length) {\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tvar select = $('<select style=\"width: 100%;\"><option value=\"\">All<\/option><\/select>')\n\t\t\t\t\t.appendTo(filterCell.empty())\n\t\t\t\t\t.on('change', function() {\n\t\t\t\t\t\tvar val = $.fn.dataTable.util.escapeRegex($(this).val());\n\t\t\t\t\t\tapi.column(sectionIdx).search(val ? '^' + val + '$' : '', true, false).draw();\n\t\t\t\t\t});\n\n\t\t\t\tapi.column(sectionIdx).data().unique().sort().each(function(d) {\n\t\t\t\t\tif (d !== null && d !== undefined && d !== '') {\n\t\t\t\t\t\tselect.append('<option value=\"' + d + '\">' + d + '<\/option>');\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t}","order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 </div>
-<div class="carousel-inner">
-<div class="carousel-item active" data-bs-interval="3000">
-<img src="images/COTM/2025_dec_chart1.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>ONS Surveys</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2025_dec_chart2.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>Long Term International Migration</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2025_dec_chart3.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>UK trade</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2025_dec_chart4.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>Ownership of UK quoted shares</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2025_dec_chart5.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>Deaths related to drug poisoning in England and Wales</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2025_dec_chart6.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>Marriages and Divorces in England and Wales</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2025_dec_chart7.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>GDP monthly estimate, UK</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2026_jan_chart1.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>Gender pay gap in the UK: 2025</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2026_jan_chart2.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>Industry-to-industry payment flows, UK: 2019 to 2025</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2026_jan_chart3.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>Industry-to-industry payment flows, UK: 2019 to 2025</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="3000">
-<img src="images/COTM/2026_jan_chart4.png" class="d-block mx-auto">
-<div class="carousel-caption d-none d-md-block">
-<p>UK trade flows of containerised products through global maritime
-passages: 2020 to 2024</p>
-</div>
-</div>
-</div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#quarto-carousel-1" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-      </button>
-    
-      <button class="carousel-control-next" type="button" data-bs-target="#quarto-carousel-1" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-      </button>
-    
 </div>
 <div id="footer">
 You can contact us at <a href="mailto:digitalcontent@ons.gov.uk">digitalcontent@ons.gov.uk</a> and we will set up a consultation to see how we can best support you.

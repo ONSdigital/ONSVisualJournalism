@@ -13,8 +13,7 @@ website:
       - resources.qmd
       - cotm.qmd
       - visualvocabulary.qmd
-      - text: Blog
-        href: blog.qmd
+      - library.qmd
   favicon: logo.png
 
 format:
@@ -29,7 +28,3 @@ format:
 
 filters:
   - carousel    
-
-
-
-
