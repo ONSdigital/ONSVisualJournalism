@@ -14,8 +14,6 @@ website:
       - cotm.qmd
       - visualvocabulary.qmd
       - library.qmd
-      - text: Blog
-        href: blog.qmd
   favicon: logo.png
 
 format:
