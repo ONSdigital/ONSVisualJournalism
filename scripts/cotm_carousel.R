@@ -9,7 +9,7 @@ cotm_raw<-read.csv('data/cotm.csv')
 cotm_filtered<-cotm_raw %>% 
     # filter unwanted (e.g. unpublished charts)
     filter(carousel_include == 1 & !is.na(vis_url)) %>%
-    mutate(vis_url = str_remove(vis_url, 'https://www.ons.gov.uk'))
+    mutate(vis_url_short = str_remove(vis_url, 'https://www.ons.gov.uk'))
 
 # use curl to avoid SSL issues
 json_txt <- curl_fetch_memory(
@@ -20,21 +20,21 @@ json_data <- fromJSON(rawToChar(json_txt))
 
 screenshot_data<-
     data.frame(
-        vis_url = names(json_data),
+        vis_url_short = names(json_data),
         img_id = as.integer(unname(json_data))
     ) %>%
     mutate(img_url = paste0('https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/',
                             img_id,
                             ".png"))
 
-
 carousel_data <- cotm_filtered %>%
-  left_join(screenshot_data, by = c("vis_url")) %>%
+  left_join(screenshot_data, by = c("vis_url_short")) %>%
   # filter out charts missing from screenshot tool for some reason
-  filter(!is.na(img_url))
+  filter(!is.na(img_url)) %>%
+  mutate(caption = glue("{release_title} - {publish_date}"))
 
 items <- glue::glue(
-  ":::: {{.carousel-item image=\"{carousel_data$img_url}\" height=\"400px\" caption=\"{carousel_data$release_title}\"}}\n::::"
+  ":::: {{.carousel-item image=\"{carousel_data$img_url}\" height=\"400px\" caption=\"{carousel_data$caption}\"}}\n::::"
 )
 
 carousel_qmd <- paste0(
@@ -42,6 +42,5 @@ carousel_qmd <- paste0(
   paste(items, collapse = "\n\n"),
   "\n\n:::::"
 )
-
 
 writeLines(carousel_qmd, "_includes/carousel.qmd")
