@@ -7,8 +7,6 @@ website:
   navbar:
     search: false
     left:
-      - href: index.qmd
-        text: Home
       - whoarewe.qmd
       - resources.qmd
       - cotm.qmd
