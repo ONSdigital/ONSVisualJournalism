@@ -1,0 +1,33 @@
+::::: {.carousel .dark .framed indicators="true" controls="true"}
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/1933.png" height="400px" caption="UK Trade"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/266.png" height="400px" caption="Ownership QS"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2091.png" height="400px" caption="GDP Monthly estimates"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/1953.png" height="400px" caption="Gender pay gap in the UK"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2154.png" height="400px" caption="Industry-to-industry payment flows, UK: 2019 to 2025"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2082.png" height="400px" caption="Sexual orientation, UK"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2066.png" height="400px" caption="UK trade flows of containerised products through global maritime passages"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2176.png" height="400px" caption="Productivity flash estimate and overview, UK: October to December 2025 and July to September 2025"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2216.png" height="400px" caption="High streets and retail areas in Great Britain: March 2026"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2213.png" height="400px" caption="High streets and retail areas in Great Britain: March 2026"}
+::::
+
+:::::
