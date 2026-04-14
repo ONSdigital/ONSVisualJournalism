@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resources – ONS Visual Journalism</title>
+<title>Library – ONS Visual Journalism</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,34 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+
+<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+
 
 
 </head>
@@ -93,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Who are we</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page"> 
+    <a class="nav-link" href="./resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -105,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Visual Vocabulary</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./library.html"> 
+    <a class="nav-link active" href="./library.html" aria-current="page"> 
 <span class="menu-text">Library</span></a>
   </li>  
 </ul>
@@ -127,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resources</h1>
+<h1 class="title">Library</h1>
 </div>
 
 
@@ -144,126 +172,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<a href="https://github.com/ONSvisual/Charts" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/charts.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-Charts
-</h4>
-<p class="card-subtitle">
-Subtitle about charts
-</p>
-</div>
-</div>
-</a><p><a href="https://github.com/ONSvisual/Charts" class="text-decoration-none"></a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<a href="https://github.com/ONSdigital/maptemplates" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/maps.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-Map templates
-</h4>
-<p class="card-subtitle">
-Subtitle about map templates
-</p>
-</div>
-</div>
-</a><p><a href="https://github.com/ONSdigital/maptemplates" class="text-decoration-none"></a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<a href="https://gitlab-app-l-01/ONSvisual" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/onsvisual.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-ONSvisual
-</h4>
-<p class="card-subtitle">
-Subtitle about ONSvisual
-</p>
-</div>
-</div>
-</a><p><a href="https://gitlab-app-l-01/ONSvisual" class="text-decoration-none"></a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<a href="https://service-manual.ons.gov.uk/data-visualisation" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/servicemanual.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-Service manual
-</h4>
-<p class="card-subtitle">
-Subtitle about service manual
-</p>
-</div>
-</div>
-</a><p><a href="https://service-manual.ons.gov.uk/data-visualisation" class="text-decoration-none"></a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<a href="https://www.ons.gov.uk/explore-local-statistics/" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/els.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-Explore Local Statistics
-</h4>
-<p class="card-subtitle">
-Subtitle about ELS
-</p>
-</div>
-</div>
-</a><p><a href="https://www.ons.gov.uk/explore-local-statistics/" class="text-decoration-none"></a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<a href="https://onsdigital.github.io/uk-topojson/" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/geogs.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-UK Administrative Geographies
-</h4>
-<p class="card-subtitle">
-Subtitle about tool for downloading UK geographies 2014–2025
-</p>
-</div>
-</div>
-</a><p><a href="https://onsdigital.github.io/uk-topojson/" class="text-decoration-none"></a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<a href="https://github.com/ONSdigital/data-vis-training" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/training.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-Training
-</h4>
-<p class="card-subtitle">
-A code library of helpful snippets
-</p>
-</div>
-</div>
-</a><p><a href="https://github.com/ONSdigital/data-vis-training" class="text-decoration-none"></a></p>
-</div>
-<div class="g-col-12 g-col-md-4">
-<a href="https://officenationalstatistics.sharepoint.com/sites/digpub/DigPub/Forms/AllItems.aspx?id=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training%2FONS%20charts%20cheat%20sheet%20%2D%20Nov%202025%2Epdf&amp;parent=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/cheatsheet.png" class="card-img-top">
-<div class="card-body d-flex flex-column">
-<h4 class="card-title">
-ONS Charts cheat sheet
-</h4>
-<p class="card-subtitle">
-Subtitle about cheat sheet
-</p>
-</div>
-</div>
-</a><p><a href="https://officenationalstatistics.sharepoint.com/sites/digpub/DigPub/Forms/AllItems.aspx?id=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training%2FONS%20charts%20cheat%20sheet%20%2D%20Nov%202025%2Epdf&amp;parent=%2Fsites%2Fdigpub%2FDigPub%2FPICI%2FImprove%20%2D%20Data%20vis%2FData%20vis%20training" class="text-decoration-none"></a></p>
+<p>Resources that we have found useful for data visualisation work.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-5567573b68e608631eff" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5567573b68e608631eff">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Natural cooling: how we are better measuring the local value of nature for urban cooling","How we’re putting everything you need to know about a dataset on one page","Dueling with axis: the problems with dual axis charts","Stacking the bars in your favour!","Making visualizations literally w/ Svelte &amp; D3","COLORBREWER 2.0","D3 in Depth","Build your own Svelte","Fundamentals of Data Visualization","Open Geography Portal","Your First Data Visualization With Svelte &amp; D3","Creative Coding: Making Visuals with JavaScript","JS training","Svelte data vis videos from Mathias Stahl","Fundamentals of Data Visualization","Invisible Women: Data Bias in a World Designed for Men","Pokemon based colour picker","JSON validator - useful for identifying missing brackets etc in large and/or nested json files","Colour ramp generator - a bit like colorBrewer but more fancy","RSS Best Practices for Data Visualisation","ONS Data Visualisation Manual","Government Analysis Function","Economist style guide","Data visualization style guidelines","Urban Institute data visualization style guide","Ordnance Survey: More than maps","The Pudding (Our Resources)","Quantum of Sollazzo","The Crunch Newsletter","Datawrapper Newsletter","The Visualising Data Newsletter","The Pudding Newsletter","Chartography","The Data Storyteller's Newsletter"],["<a href=\"https://blog.ons.gov.uk/2025/12/05/natural-cooling-how-we-are-better-measuring-the-local-value-of-nature-for-urban-cooling/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.ons.gov.uk/2025/12/05/natural-cooling-how-we-are-better-measuring-the-local-value-of-nature-for-urban-cooling/<\/a>","<a href=\"https://onsdigital.blog.gov.uk/2025/04/08/how-were-putting-everything-you-need-to-know-about-a-dataset-on-one-page/\" target=\"_blank\" rel=\"noopener noreferrer\">https://onsdigital.blog.gov.uk/2025/04/08/how-were-putting-everything-you-need-to-know-about-a-dataset-on-one-page/<\/a>","<a href=\"https://digitalblog.ons.gov.uk/2019/07/03/dueling-with-axis-the-problems-with-dual-axis-charts/\" target=\"_blank\" rel=\"noopener noreferrer\">https://digitalblog.ons.gov.uk/2019/07/03/dueling-with-axis-the-problems-with-dual-axis-charts/<\/a>","<a href=\"https://digitalblog.ons.gov.uk/2017/08/17/stacking-the-bars-in-your-favour/\" target=\"_blank\" rel=\"noopener noreferrer\">https://digitalblog.ons.gov.uk/2017/08/17/stacking-the-bars-in-your-favour/<\/a>","<a href=\"https://v4.connorrothschild.com/post/svelte-and-d3\" target=\"_blank\" rel=\"noopener noreferrer\">https://v4.connorrothschild.com/post/svelte-and-d3<\/a>","<a href=\"https://colorbrewer2.org/\" target=\"_blank\" rel=\"noopener noreferrer\">https://colorbrewer2.org/<\/a>","<a href=\"https://www.d3indepth.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.d3indepth.com/<\/a>","<a href=\"https://www.youtube.com/c/lihautan\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/c/lihautan<\/a>","<a href=\"https://clauswilke.com/dataviz/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://clauswilke.com/dataviz/index.html<\/a>","<a href=\"https://geoportal.statistics.gov.uk/\" target=\"_blank\" rel=\"noopener noreferrer\">https://geoportal.statistics.gov.uk/<\/a>","<a href=\"https://www.youtube.com/watch?v=-THp2YVYEFc\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/watch?v=-THp2YVYEFc<\/a>","<a href=\"https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript<\/a>","<a href=\"https://www.freecodecamp.org/learn\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.freecodecamp.org/learn<\/a>","<a href=\"https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8<\/a>","<a href=\"https://clauswilke.com/dataviz/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://clauswilke.com/dataviz/index.html<\/a>","<a href=\"https://www.amazon.co.uk/Invisible-Women-Data-World-Designed/dp/1419729071\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.amazon.co.uk/Invisible-Women-Data-World-Designed/dp/1419729071<\/a>","<a href=\"https://pokepalettes.com/#bulbasaur\" target=\"_blank\" rel=\"noopener noreferrer\">https://pokepalettes.com/#bulbasaur<\/a>","<a href=\"https://jsonlint.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://jsonlint.com/<\/a>","<a href=\"https://rampgenerator.com\" target=\"_blank\" rel=\"noopener noreferrer\">https://rampgenerator.com<\/a>","<a href=\"https://rss.org.uk/datavisguide/\" target=\"_blank\" rel=\"noopener noreferrer\">https://rss.org.uk/datavisguide/<\/a>","<a href=\"https://service-manual.ons.gov.uk/data-visualisation\" target=\"_blank\" rel=\"noopener noreferrer\">https://service-manual.ons.gov.uk/data-visualisation<\/a>","<a href=\"https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/\" target=\"_blank\" rel=\"noopener noreferrer\">https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/<\/a>","<a href=\"https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf<\/a>","<a href=\"https://www.datavizstyleguide.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.datavizstyleguide.com/<\/a>","<a href=\"https://urbaninstitute.github.io/graphics-styleguide/\" target=\"_blank\" rel=\"noopener noreferrer\">https://urbaninstitute.github.io/graphics-styleguide/<\/a>","<a href=\"https://docs.os.uk/more-than-maps\" target=\"_blank\" rel=\"noopener noreferrer\">https://docs.os.uk/more-than-maps<\/a>","<a href=\"https://pudding.cool/resources/\" target=\"_blank\" rel=\"noopener noreferrer\">https://pudding.cool/resources/<\/a>","<a href=\"https://quantumofsollazzo.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://quantumofsollazzo.com/<\/a>","<a href=\"https://www.theguardian.com/news/series/the-crunch-data-newsletter-email\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.theguardian.com/news/series/the-crunch-data-newsletter-email<\/a>","<a href=\"https://www.datawrapper.de/blog/newsletter\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.datawrapper.de/blog/newsletter<\/a>","<a href=\"https://visualisingdata.com/newsletter/\" target=\"_blank\" rel=\"noopener noreferrer\">https://visualisingdata.com/newsletter/<\/a>","<a href=\"https://pudding.cool/subscribe\" target=\"_blank\" rel=\"noopener noreferrer\">https://pudding.cool/subscribe<\/a>","<a href=\"https://www.chartography.net/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.chartography.net/<\/a>","<a href=\"https://us21.campaign-archive.com/home/?u=aa646e8e2a136beb294a0817a&id=1d5ff1558e\" target=\"_blank\" rel=\"noopener noreferrer\">https://us21.campaign-archive.com/home/?u=aa646e8e2a136beb294a0817a&amp;id=1d5ff1558e<\/a>"],["blog","blog","blog","blog","learning","resource","learning","learning","learning","resource","learning","learning","learning","learning","learning","resource","resource","resource","resource","Style guide","Style guide","Style guide","Style guide","Style guide","Style guide","Style guide","resource","Newsletter","Newsletter","Newsletter","Newsletter","Newsletter","Newsletter","Newsletter"],["website","website","website","website","website","website","website","video","website","website","video","video","website","video","book","book","website","website","website","website","website","website","website","website","website","website","website","website","website","website","website","website","website","website"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Name/Alt text<\/th>\n      <th>URL<\/th>\n      <th>Section<\/th>\n      <th>Medium<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"autoWidth":false,"columnDefs":[{"width":"300px","targets":0},{"width":"320px","targets":1},{"width":"120px","targets":2},{"width":"120px","targets":3},{"name":"Name/Alt text","targets":0},{"name":"URL","targets":1},{"name":"Section","targets":2},{"name":"Medium","targets":3}],"initComplete":"function() {\n\t\t\t\tvar api = this.api();\n\t\t\t\tvar sectionIdx = 2;\n\t\t\t\tvar headerRows = $(api.table().node()).find('thead tr');\n\t\t\t\tvar filterRow = headerRows.last();\n\n\t\t\t\tif (!filterRow.length || filterRow.find('input').length === 0) {\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tvar filterCell = filterRow.find('th').eq(sectionIdx);\n\t\t\t\tvar existingInput = filterCell.find('input');\n\n\t\t\t\tif (!filterCell.length || !existingInput.length) {\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tvar select = $('<select style=\"width: 100%;\"><option value=\"\">All<\/option><\/select>')\n\t\t\t\t\t.appendTo(filterCell.empty())\n\t\t\t\t\t.on('change', function() {\n\t\t\t\t\t\tvar val = $.fn.dataTable.util.escapeRegex($(this).val());\n\t\t\t\t\t\tapi.column(sectionIdx).search(val ? '^' + val + '$' : '', true, false).draw();\n\t\t\t\t\t});\n\n\t\t\t\tapi.column(sectionIdx).data().unique().sort().each(function(d) {\n\t\t\t\t\tif (d !== null && d !== undefined && d !== '') {\n\t\t\t\t\t\tselect.append('<option value=\"' + d + '\">' + d + '<\/option>');\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t}","order":[],"orderClasses":false,"orderCellsTop":true}},"evals":["options.initComplete"],"jsHooks":[]}</script>
 </div>
 </div>
 <div id="footer">
