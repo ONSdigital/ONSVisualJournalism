@@ -21,7 +21,7 @@ format:
     theme:
       - cosmo
       - ONSstyle.scss
-    toc: true
+    toc: false
 
 filters:
   - carousel    

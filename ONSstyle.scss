@@ -104,18 +104,16 @@ h2 {
 
 .entity-contents {
   text-align: right !important;
-  padding: 0 2em 0 2em;
+  padding: 0 3em 0 1em;
 }
 
 .about-entity h1 {
   text-align: right !important;
   max-width: 100% !important;
-  padding-right: 25.5px;
 }
 
 .about-entity .subtitle {
   text-align: right !important;
-  padding-right: 25.5px;
 }
 
 .about-entity .about-links {
@@ -124,6 +122,10 @@ h2 {
 
 .about-entity {
   align-items: center !important;
+}
+
+.about-contents {
+  padding: 0 0 0 2em !important;
 }
 
 
