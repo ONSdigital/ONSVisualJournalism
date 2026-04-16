@@ -94,6 +94,69 @@ h2 {
   padding-bottom: 35px;
 }
 
+.about-entity .about-link {
+  padding: 0.25em 0.25em !important;
+  border: none !important; 
+  justify-content: flex-end !important;
+  column-gap: 0em !important;
+  font-size: 1.2em !important;
+}
+
+.entity-contents {
+  text-align: right !important;
+  padding: 0 2em 0 2em;
+}
+
+.about-entity h1 {
+  text-align: right !important;
+  max-width: 100% !important;
+  padding-right: 25.5px;
+}
+
+.about-entity .subtitle {
+  text-align: right !important;
+  padding-right: 25.5px;
+}
+
+.about-entity .about-links {
+  text-align: right !important;
+}
+
+.about-entity {
+  align-items: center !important;
+}
+
+
+@media (max-width: 991.98px) {
+
+  .entity-contents {
+    order: 2 !important;
+    margin: -4em 0 0 0 !important;
+    padding: 0 0 0 0em !important;
+    text-align: center !important;
+  }
+
+  .about-entity h1 {
+    margin-left: auto !important;
+    margin-right: auto !important;   /* center block */
+    text-align: center !important;
+  }
+
+  .about-entity .subtitle {
+    text-align: center !important;
+  }
+
+  .about-entity .about-links {
+    justify-content: center !important;
+  }
+
+  .about-image {
+      order: 1 !important;
+      padding: 2em 2em 2em 2em !important;
+    }
+}
+
+
 .author {
   color: $body-bg;
   font-size: $presentation-h4-font-size;
