@@ -21,6 +21,6 @@ We offer a range of services in data visualisation, journalism, graphic design, 
 
 
 <div id="footer">
-You can contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk) and we will set up a consultation to see how we can best support you.</div>
+Contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk) to set up a consultation to see how we can best support you.</div>
 
 
