@@ -267,23 +267,36 @@ section.has-light-background a, section.has-light-background a:hover {
 
 .card {
     background-color:$ons-grey5;
-    border: 1px solid $ons-grey75;
-    border-radius: 5px; 
   }
+
+.ons-card__title {
+    margin-bottom: 0;
+}
 
 .card-title {
   font-weight: $headings-font-weight;
   font-size: 150%;
+  // text-decoration: underline;
 }
 .card-subtitle {
-  font-weight: $headings-font-weight;
+  color: $ons-black;
   font-size: 100%;
   margin-bottom: 1.3rem;
+  // margin-top: 1.3rem;
 }
+
 .card-text { 
   font-size:75%;
   font-weight: 100;
   }
+  
+.ons-card h2,
+.ons-card h3 {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
   
 .card-img-top {
   height: 200px;    
@@ -299,6 +312,11 @@ section.has-light-background a, section.has-light-background a:hover {
   font-size:75%;
   font-weight: 100;
   }
+
+
+.ons-card__link .card-subtitle {
+  text-decoration: none !important;
+}
 
   #footer {
     position: fixed;

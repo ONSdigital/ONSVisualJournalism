@@ -3,15 +3,14 @@ title: "Resources"
 
 ---
 
-
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-<a href="https://github.com/ONSvisual/Charts" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/charts.png" class="card-img-top">
+<a href="https://github.com/ONSvisual/Charts" class="ons-card__link" >
+<div class="ons-card h-100">
+<img src="images/resources_thumbnails/charts.png" class="card-img-top ons-card__image ons-u-mb-s ">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">Charts</h4>
+<h2 class="ons-card__titleons-u-fs-m">Charts</h2>
 <p class="card-subtitle">Subtitle about charts</p>
 </div>
 </div>
@@ -21,10 +20,10 @@ title: "Resources"
 
 ::: {.g-col-12 .g-col-md-4}
 <a href="https://github.com/ONSdigital/maptemplates" class="text-decoration-none">
-<div class="card h-100">
-<img src="images/resources_thumbnails/maps.png" class="card-img-top">
+<div class="ons-card h-100">
+<img src="images/resources_thumbnails/maps.png" class="card-img-top ons-card__image ons-u-mb-s ">
 <div class="card-body d-flex flex-column">
-<h4 class="card-title">Map templates</h4>
+<h4 class="card-title ons-card__title ons-u-fs-m">Map templates</h4>
 <p class="card-subtitle">Subtitle about map templates</p>
 </div>
 </div>
