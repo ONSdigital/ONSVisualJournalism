@@ -3,8 +3,10 @@ project:
 
 website:
   title: "ONS Visual Journalism"
+  body-header: _includes/header.html
   navbar:
     search: false
+    background: none
     left:
       - whoarewe.qmd
       - recent.qmd
@@ -20,9 +22,13 @@ format:
     anchor-sections: false
     link-external-newwindow: true
     theme:
-      - cosmo
       - ONSstyle.scss
+      - cosmo
     toc: false
+    css:
+      - https://cdn.ons.gov.uk/sdc/design-system/73.3.0/css/main.css
+      - https://cdn.ons.gov.uk/vendor/accessible-autocomplete/3.0.1/accessible-autocomplete.min.css
+
 
 filters:
   - carousel    

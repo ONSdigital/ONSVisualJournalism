@@ -1,0 +1,11 @@
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const onsHeader = document.querySelector(".ons-header");
+  const quartoHeader = document.querySelector("#quarto-header");
+
+  if (onsHeader && quartoHeader) {
+    quartoHeader.before(onsHeader);
+  }
+});
+</script>

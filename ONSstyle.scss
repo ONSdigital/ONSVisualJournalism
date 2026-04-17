@@ -47,9 +47,41 @@ $body-color: $ons-black;
 $link-color: $ons-ocean-blue;
 $body-bg: #ffffff;
 
-// nav
-$navbar-bg: $ons-night-blue;
-$navbar-hl: $ons-night-blue10;
+// account for fixed headers
+body {
+  padding-top: calc(var(--ons-header-height) + 60px);
+}
+
+// // nav
+// $navbar-bg: var(--ons-color-header);
+// $navbar-hl: $ons-night-blue10;
+
+
+#quarto-header .navbar {
+  background-color: var(--ons-color-header);
+}
+
+
+#quarto-header .navbar .navbar-title {
+  color: var(--ons-color-text-inverse);
+  font-weight: 700;
+}
+
+
+#quarto-header .navbar .nav-link {
+  color: var(--ons-color-text-inverse);
+}
+
+
+#quarto-header .navbar .nav-link.active {
+  font-weight: 700;
+}
+
+
+.page-navbar #quarto-document-content {
+  padding-top: 3.5rem;
+}
+
 
 /*-- scss:rules --*/
 
@@ -64,17 +96,10 @@ $navbar-hl: $ons-night-blue10;
   padding-left: 0px;
 }
 
-// h1.title {
-//     color:$ons-ocean-blue;
-// }
-
 a {
     color:$ons-ocean-blue;
 }
 
-// .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-//     color: #206095;
-// }
 
 .navbar-nav .nav-link.show {
   color: $ons-night-blue10
@@ -161,6 +186,45 @@ h2 {
 }
 
 
+:root {
+  --ons-header-height: 52px;
+}
+
+main#quarto-document-content {
+  position: static !important;
+  overflow: visible !important;
+}
+
+.ons-header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 1031 !important;
+}
+
+#quarto-header {
+  position: fixed !important;
+  top: var(--ons-header-height) !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1030;
+}
+
+
+.ons-header {
+  width: 100%;
+}
+
+.ons-header .ons-container {
+  max-width: none;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+
+
 .author {
   color: $body-bg;
   font-size: $presentation-h4-font-size;
@@ -179,54 +243,6 @@ section.has-dark-background a, section.has-dark-background a:hover {
 
 section.has-light-background a, section.has-light-background a:hover {
   color: $link-color !important;
-}
-
-.slide-number, .reveal.has-logo .slide-number {
-  bottom: 2.5% !important;
-  right: 25px !important;
-  top: unset !important;
-  color: $ons-white !important;
-  z-index: -999 !important;
-}
-
-.reveal .footer {
-  font-family: $font-family-sans-serif;
-  padding-bottom: 0px;
-  bottom: 0px !important;
-  margin-bottom: 0px;
-  color: $ons-spring-green;
-  background-color:  $ons-night-blue;
-  height: 10%;
-  margin-top: 1em;
-  z-index: -999 !important;
-}
-
-.reveal .slide-logo {
-  left: 5px;
-  bottom: 0px !important;
-  padding-left: 5px !important;
-  padding-bottom: 0px !important;
-  max-height: 5% !important;
-}
-
-.reveal .slide-menu-button  {
-    left: 5px;
-    top: 25px;
-    padding-left: 10px;
-    color: $ons-white;
-  }
-
-.slide-chalkboard-buttons {
-    top: 30px;
-    padding-left: 10px;
-    color: $ons-white;
-  }
-
-.reveal .progress {
-  background: $ons-night-blue;
-  color: $ons-spring-green;
-  height: 2%;
-  top: 0;
 }
 
 .right {
@@ -290,14 +306,14 @@ section.has-light-background a, section.has-light-background a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #003c57;
-    color: #bdccd3;
+    background-color: var(--ons-color-banner-bg);
+    color: var(--ons-color-text);
     text-align: center;
     font-size: 100%;
     padding: 16px 10px 10px 10px;
     z-index: 1040;
   }
   #footer a {
-    color: $ons-white;
-    text-decoration: none;
+    color: var(--ons-color-text-banner-link);
+    text-decoration: underline;
   }
