@@ -125,7 +125,7 @@ h2 {
 }
 
 .about-contents {
-  padding: 0 0 0 2em !important;
+   padding: 0 0 0 2em !important;
 }
 
 
@@ -133,15 +133,17 @@ h2 {
 
   .entity-contents {
     order: 2 !important;
-    margin: -4em 0 0 0 !important;
+    margin: -1em 0 0 0 !important;
     padding: 0 0 0 0em !important;
     text-align: center !important;
   }
 
   .about-entity h1 {
     margin-left: auto !important;
-    margin-right: auto !important;   /* center block */
+    margin-right: auto !important;
     text-align: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
   }
 
   .about-entity .subtitle {

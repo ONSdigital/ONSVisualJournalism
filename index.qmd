@@ -5,7 +5,7 @@ about:
   id: hero-heading
   template: solana
   image: images/home/census.png
-  image-width: 29em 
+  image-width: 27em 
   image-shape: round
 ---
 
@@ -14,7 +14,7 @@ about:
 Our team focuses on improving the understanding and engagement with ONS analysis.
 We offer a range of services in data visualisation, journalism, graphic design, content design and social media.
 
-[Who are we &rarr;](whoarewe.qmd)
+[See some of our recent work &rarr;](recent.qmd)
 
 :::
 
