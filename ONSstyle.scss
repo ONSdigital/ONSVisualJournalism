@@ -217,6 +217,35 @@ section.has-light-background a, section.has-light-background a:hover {
   font-weight: 100;
   }
 
+  .cotm-criteria-table {
+    margin: 0.9rem 0 1.2rem;
+    width: auto;
+    display: inline-table;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: $ons-grey5;
+    border: 1px solid $ons-grey35;
+    border-left: 4px solid $ons-ocean-blue;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 60, 87, 0.08);
+    overflow: hidden;
+  }
+
+  .cotm-criteria-table td {
+    width: 8.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    vertical-align: top;
+  }
+
+  .cotm-criteria-table td:not(:last-child) {
+    border-right: 1px solid $ons-grey15;
+  }
+
+  .cotm-criteria-table tr + tr td {
+    border-top: 1px solid $ons-grey15;
+  }
+
   #footer {
     position: fixed;
     height:60px;

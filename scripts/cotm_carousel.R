@@ -31,7 +31,7 @@ carousel_data <- cotm_filtered %>%
   left_join(screenshot_data, by = c("vis_url_short")) %>%
   # filter out charts missing from screenshot tool for some reason
   filter(!is.na(img_url)) %>%
-  mutate(caption = glue("{release_title} - {publish_date}"))
+  mutate(caption = glue("{cotm_month} - {release_title} - {publish_date}"))
 
 items <- glue::glue(
   ":::: {{.carousel-item image=\"{carousel_data$img_url}\" height=\"400px\" caption=\"{carousel_data$caption}\"}}\n::::"

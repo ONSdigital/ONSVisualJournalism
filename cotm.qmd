@@ -3,18 +3,21 @@ title: "Chart of the month"
 format: html
 ---
 
-Each month, we nominate and vote for a chart of month, based on
+A few examples of charts that we have loved in the past, based on
 
-- Impact
-- Novelty
-- Clarity
-- Aesthetics
-- Impact
-- General love
-
-Here's a few examples of charts that we have loved in the past:
+<table class="cotm-criteria-table">
+	<tbody>
+		<tr><td>Impact</td><td>Aesthetics</td><td>Clarity</td></tr>
+		<tr><td>Novelty</td><td>Impact</td><td>General love</td></tr>
+	</tbody>
+</table>
 
 {{< include _includes/carousel.qmd >}}
+
+
+
+
+
 
 <div id="footer">
 You can contact us at [digitalcontent@ons.gov.uk](mailto:digitalcontent@ons.gov.uk) and we will set up a consultation to see how we can best support you.</div>
