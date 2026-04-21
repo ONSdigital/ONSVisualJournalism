@@ -1,19 +1,19 @@
-﻿release_title,vis_url,dvc,cotm_month,winner,publish_date,release_url,local_url,carousel_include
-Data sources strategy,https://www.ons.gov.uk/visualisations/dvc3437/fig1/index.html,3437,Dec-25,0,,,,1
-Migration,https://www.ons.gov.uk/visualisations/dvc3376/fig1wrapper/,3376,Dec-25,0,,,,1
-UK Trade,https://www.ons.gov.uk/visualisations/dvc3391/fig04/index.html,3391,Dec-25,0,13/11/2025,,,1
-Ownership QS,https://www.ons.gov.uk/visualisations/dvc2811/fig4wrapper/index.html,2811,Dec-25,0,04/12/2023,,,1
-Suicides,https://www.ons.gov.uk/visualisations/dvc661/suicides/index.html,661,Dec-25,1,,,,1
-Divorces,https://www.ons.gov.uk/visualisations/dvc712/line/index.html,712,Dec-25,0,,,,1
-GDP Monthly estimates,https://www.ons.gov.uk/visualisations/dvc3443/fig08/index.html,3443,Dec-25,0,12/12/2025,,,1
-Gender pay gap in the UK,https://www.ons.gov.uk/visualisations/dvc3394/fig07/index.html,3394,Jan-26,0,22/10/2025,https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/genderpaygapintheuk/2025,,1
-"Industry-to-industry payment flows, UK: 2019 to 2025",https://www.ons.gov.uk/visualisations/dvc3352/fig05/index.html,3352,Jan-26,0,30/01/2026,https://www.ons.gov.uk/economy/economicoutputandproductivity/output/articles/industrytoindustrypaymentflowsuk/2019to2025,,1
-"Sexual orientation, UK",https://www.ons.gov.uk/visualisations/dvc3428/fig02/index.html,3428,Jan-26,0,09/12/2025,https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/sexuality/bulletins/sexualidentityuk/2024,,1
-UK trade flows of containerised products through global maritime passages,https://www.ons.gov.uk/visualisations/dvc3441/shipping-straits-map/index.html,3441,Jan-26,1,08/12/2025,https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/uktradeflowsofcontainerisedproductsthroughglobalmaritimepassages/2020to2024,,1
-"Productivity flash estimate and overview, UK: October to December 2025 and July to September 2025",https://www.ons.gov.uk/visualisations/dvc3488/fig6/index.html,3488,Feb-26,0,17/02/2026,https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/articles/ukproductivityintroduction/octobertodecember2025andjulytoseptember2025,,1
-NA,NA,3489,Feb-26,1,NA,NA,https://fa1rvwwsxx343.ons.statistics.gov.uk/visualisations/dvc3400-3499/dvc3489-understanding-towns/fig03/,0
-Evaluating the accuracy of the admin-based population estimates for England and Wales,https://www.ons.gov.uk/visualisations/dvc3502/Fig04/index.html,3502,Mar-26,0,04/03/2026,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/methodologies/evaluatingtheaccuracyoftheadminbasedpopulationestimatesforenglandandwales,,1
-Evaluating the accuracy of the admin-based population estimates for England and Wales,https://www.ons.gov.uk/visualisations/dvc3502/Fig05/index.html,3502,Mar-26,0,04/03/2026,https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/uktradeflowsofcontainerisedproductsthroughglobalmaritimepassages/2020to2024,,1
-High streets and retail areas in Great Britain: March 2026,https://www.ons.gov.uk/visualisations/dvc3498/fig07/index.html,3498,Mar-26,0,10/03/2026,https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/highstreetsandretailareasingreatbritain/march2026,,1
-High streets and retail areas in Great Britain: March 2026,https://www.ons.gov.uk/visualisations/dvc3498/fig04/index.html,3498,Mar-26,0,10/03/2026,https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/highstreetsandretailareasingreatbritain/march2026,,1
-Housing affordability in England and Wales: 2025,https://www.ons.gov.uk/visualisations/dvc3507/fig1wrapper/index.html,3507,Mar-26,0,26/03/2026,https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingaffordabilityinenglandandwales/2025,https://fa1rvwwsxx343.ons.statistics.gov.uk/visualisations/dvc3500-3599/dvc3507-housing-affordability-release/fig1wrapper/,1
+﻿vis_url,cotm_month,winner,local_url,carousel_include
+https://www.ons.gov.uk/visualisations/dvc3437/fig1/index.html,Dec-25,0,,1
+https://www.ons.gov.uk/visualisations/dvc3376/fig1wrapper/,Dec-25,0,,1
+https://www.ons.gov.uk/visualisations/dvc3391/fig04/index.html,Dec-25,0,,1
+https://www.ons.gov.uk/visualisations/dvc2811/fig4wrapper/index.html,Dec-25,0,,1
+https://www.ons.gov.uk/visualisations/dvc661/suicides/index.html,Dec-25,1,,1
+https://www.ons.gov.uk/visualisations/dvc712/line/index.html,Dec-25,0,,1
+https://www.ons.gov.uk/visualisations/dvc3443/fig08/index.html,Dec-25,0,,1
+https://www.ons.gov.uk/visualisations/dvc3394/fig07/index.html,Jan-26,0,,1
+https://www.ons.gov.uk/visualisations/dvc3352/fig05/index.html,Jan-26,0,,1
+https://www.ons.gov.uk/visualisations/dvc3428/fig02/index.html,Jan-26,0,,1
+https://www.ons.gov.uk/visualisations/dvc3441/shipping-straits-map/index.html,Jan-26,1,,1
+https://www.ons.gov.uk/visualisations/dvc3488/fig6/index.html,Feb-26,0,,1
+NA,Feb-26,1,https://fa1rvwwsxx343.ons.statistics.gov.uk/visualisations/dvc3400-3499/dvc3489-understanding-towns/fig03/,0
+https://www.ons.gov.uk/visualisations/dvc3502/Fig04/index.html,Mar-26,0,,1
+https://www.ons.gov.uk/visualisations/dvc3502/Fig05/index.html,Mar-26,0,,1
+https://www.ons.gov.uk/visualisations/dvc3498/fig07/index.html,Mar-26,0,,1
+https://www.ons.gov.uk/visualisations/dvc3498/fig04/index.html,Mar-26,0,,1
+https://www.ons.gov.uk/visualisations/dvc3507/fig1wrapper/index.html,Mar-26,0,https://fa1rvwwsxx343.ons.statistics.gov.uk/visualisations/dvc3500-3599/dvc3507-housing-affordability-release/fig1wrapper/,1

@@ -1,33 +1,36 @@
 ::::: {.carousel .dark .framed indicators="true" controls="true"}
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/1933.png" height="400px" caption="UK Trade - 13/11/2025"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/1933.png" height="400px" caption="December 2025 - UK trade - 2025-10-15"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/266.png" height="400px" caption="Ownership QS - 04/12/2023"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/266.png" height="400px" caption="December 2025 - Ownership of UK quoted shares - 2023-12-04"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2091.png" height="400px" caption="GDP Monthly estimates - 12/12/2025"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2091.png" height="400px" caption="December 2025 - GDP monthly estimate, UK - 2025-12-12"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/1953.png" height="400px" caption="Gender pay gap in the UK - 22/10/2025"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/1953.png" height="400px" caption="January 2026 - Gender pay gap in the UK - 2025-10-22"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2154.png" height="400px" caption="Industry-to-industry payment flows, UK: 2019 to 2025 - 30/01/2026"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2154.png" height="400px" caption="January 2026 - Industry-to-industry payment flows, UK: 2019 to 2025 - 2026-01-30"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2082.png" height="400px" caption="Sexual orientation, UK - 09/12/2025"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2082.png" height="400px" caption="January 2026 - Sexual orientation, UK - 2025-12-09"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2066.png" height="400px" caption="UK trade flows of containerised products through global maritime passages - 08/12/2025"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2066.png" height="400px" caption="January 2026 - UK trade flows of containerised products through global maritime passages - 2025-12-08"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2176.png" height="400px" caption="Productivity flash estimate and overview, UK: October to December 2025 and July to September 2025 - 17/02/2026"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2176.png" height="400px" caption="February 2026 - Productivity flash estimate and overview, UK: October to December 2025 and July to September 2025 - 2026-02-17"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2216.png" height="400px" caption="High streets and retail areas in Great Britain: March 2026 - 10/03/2026"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2216.png" height="400px" caption="March 2026 - High streets and retail areas in Great Britain: March 2026 - 2026-03-10"}
 ::::
 
-:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2213.png" height="400px" caption="High streets and retail areas in Great Britain: March 2026 - 10/03/2026"}
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2213.png" height="400px" caption="March 2026 - High streets and retail areas in Great Britain: March 2026 - 2026-03-10"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2251.png" height="400px" caption="March 2026 - Housing affordability in England and Wales: 2025 - 2026-03-26"}
 ::::
 
 :::::
