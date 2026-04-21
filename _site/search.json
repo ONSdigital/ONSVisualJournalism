@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ONS Visual Journalism",
+    "section": "",
+    "text": "Our team focuses on improving the understanding and engagement with ONS analysis. We offer a range of services in data visualisation, journalism, graphic design, content design and social media.\n\n\n\n\n\n\n\nEconomic activity and social change in the UK, real-time indicators: 12 March 2026\n\n\n2026-03-12\n\n\n\n\n\n\n\n\n\n\n\nHigh streets and retail areas in Great Britain: March 2026\n\n\n2026-03-10\n\n\n\n\n\n\n\n\n\n\n\nEconomic activity and social change real-time indicators, UK, dashboard\n\n\n2026-03-05\n\n\n\n\n\n\n\n\n\n\n\nConsumer card spending, e-commerce and digital trade insights in the UK: 2019 to 2025\n\n\n2026-02-06\n\n\n\n\n\n\n\n\n\n\n\nEconomic activity and social change in the UK, real-time indicators: 12 February 2026\n\n\n2026-02-05\n\n\n\n\n\n\n\n\n\n\n\nUK trade: December 2025\n\n\n2026-02-12\n\n\n\n\n\n\n\n\n\n\n\nGDP monthly estimate, UK: December 2025\n\n\n2026-02-12\n\n\n\n\n\n\n\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
+  },
+  {
     "objectID": "whoarewe.html",
     "href": "whoarewe.html",
     "title": "Who are we",
@@ -14,34 +21,6 @@
     "text": "Charts\n\n\nSubtitle about charts\n\n\n\n\n\n\n\n\n\n\n\nMap templates\n\n\nSubtitle about map templates\n\n\n\n\n\n\n\n\n\n\n\nONSvisual\n\n\nSubtitle about ONSvisual\n\n\n\n\n\n\n\n\n\n\n\nService manual\n\n\nSubtitle about service manual\n\n\n\n\n\n\n\n\n\n\n\nExplore Local Statistics\n\n\nSubtitle about ELS\n\n\n\n\n\n\n\n\n\n\n\nUK Administrative Geographies\n\n\nSubtitle about tool for downloading UK geographies 2014–2025\n\n\n\n\n\n\n\n\n\n\n\nTraining\n\n\nA code library of helpful snippets\n\n\n\n\n\n\n\n\n\n\n\nONS Charts cheat sheet\n\n\nSubtitle about cheat sheet\n\n\n\n\n\n\n\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ONS Visual Journalism",
-    "section": "",
-    "text": "Our team focuses on improving the understanding and engagement with ONS analysis. We offer a range of services in data visualisation, journalism, graphic design, content design and social media.\n\n\n\n\n\n\n\nEconomic activity and social change in the UK, real-time indicators: 12 March 2026\n\n\n2026-03-12\n\n\n\n\n\n\n\n\n\n\n\nHigh streets and retail areas in Great Britain: March 2026\n\n\n2026-03-10\n\n\n\n\n\n\n\n\n\n\n\nEconomic activity and social change real-time indicators, UK, dashboard\n\n\n2026-03-05\n\n\n\n\n\n\n\n\n\n\n\nConsumer card spending, e-commerce and digital trade insights in the UK: 2019 to 2025\n\n\n2026-02-06\n\n\n\n\n\n\n\n\n\n\n\nEconomic activity and social change in the UK, real-time indicators: 12 February 2026\n\n\n2026-02-05\n\n\n\n\n\n\n\n\n\n\n\nUK trade: December 2025\n\n\n2026-02-12\n\n\n\n\n\n\n\n\n\n\n\nGDP monthly estimate, UK: December 2025\n\n\n2026-02-12\n\n\n\n\n\n\n\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
-  },
-  {
-    "objectID": "blog.html#dueling-with-axis-the-problems-with-dual-axis-charts",
-    "href": "blog.html#dueling-with-axis-the-problems-with-dual-axis-charts",
-    "title": "Blog",
-    "section": "Dueling with axis: the problems with dual axis charts",
-    "text": "Dueling with axis: the problems with dual axis charts\nCharts with two different y-axis are often used in the reporting of statistics. They can display two or more related variables together that may use different units, or where one series is orders of magnitude higher or lower than another. But dual axis charts come with a host of problems that make them confusing, and even misleading.\nIt’s important to remember that saying something with a chart is not so different to saying it in text – we’re just using a different vocabulary. We would see it as a glaring mistake to say “10 is bigger than 100” in writing, yet with dual axis charts we often say this visually. It should set the same alarm bells ringing in our minds.\nTake the following chart. “Gold” has a small amount of growth, but it’s tricky to see. We decided that we need to show “Gold” more effectively despite the tiny change relative to “Blue”.\n\nWe often resort to dual axis charts to bring out both of these messages. Here’s a reworked version done in a way we often see applied in statistical publications.\n\nBy putting several lines or bars on the same canvas we are inviting the user to make comparisons – as they might intuitively do with a regular line chart. Consider the following statements about our Blue compared with Gold dual axis chart:\n“Gold grew faster than Blue” “Gold started lower than Blue in 2013, but was higher in 2018” “Gold overtook Blue around 2016” They are all incorrect, but can we blame a less statistically literate user, or even an expert short on time for making them? After all, without studying the axis, the visual elements of the chart do suggest these to be true.\nNow let’s break down a real life example.\nThe following chart suffers from a similar problem as our first chart. Both lines are very different in magnitude, but both exhibit subtle and important trends we need to describe. Again, the chart is a very faithful representation of the data, but just looks like two, broadly flat lines. It’s fairly uninspiring.\n   \n\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "cotm.html",
-    "href": "cotm.html",
-    "title": "Chart of the month",
-    "section": "",
-    "text": "A few examples of charts that we have loved in the past, based on\n\n\n\n\nImpact\n\n\nAesthetics\n\n\nClarity\n\n\n\n\nNovelty\n\n\nImpact\n\n\nGeneral love\n\n\n\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\nUK Trade - 13/11/2025\n\n\n\n\n\nOwnership QS - 04/12/2023\n\n\n\n\n\nGDP Monthly estimates - 12/12/2025\n\n\n\n\n\nGender pay gap in the UK - 22/10/2025\n\n\n\n\n\nIndustry-to-industry payment flows, UK: 2019 to 2025 - 30/01/2026\n\n\n\n\n\nSexual orientation, UK - 09/12/2025\n\n\n\n\n\nUK trade flows of containerised products through global maritime\npassages - 08/12/2025\n\n\n\n\n\nProductivity flash estimate and overview, UK: October to December\n2025 and July to September 2025 - 17/02/2026\n\n\n\n\n\nHigh streets and retail areas in Great Britain: March 2026 -\n10/03/2026\n\n\n\n\n\nHigh streets and retail areas in Great Britain: March 2026 -\n10/03/2026\n\n\n\n      \n      \n      Previous\n      \n    \n      \n      \n      Next\n      \n    \n\n\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
-  },
-  {
     "objectID": "library.html",
     "href": "library.html",
     "title": "Library",
@@ -54,5 +33,12 @@
     "title": "Visual Vocabulary",
     "section": "",
     "text": "ONS Charts cheat sheet\n\n\nChoose the right chart type to show the insights in your data.\n\n\n\n\n\n\n\n\n\n\n\nService manual\n\n\nGuidance for creating charts and tables and best practice for using colour in your work.\n\n\n\n\n\n\n\n\n\n\n\nCharts\n\n\nONS chart components\n\n\n\n\n\n\n\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
+  },
+  {
+    "objectID": "cotm.html",
+    "href": "cotm.html",
+    "title": "Chart of the month",
+    "section": "",
+    "text": "A few examples of charts that we have loved in the past, based on\n\n\n\n\nImpact\n\n\nAesthetics\n\n\nClarity\n\n\n\n\nNovelty\n\n\nImpact\n\n\nGeneral love\n\n\n\n\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n\n\n\n\nDecember 2025 - UK trade - 2025-10-15\n\n\n\n\n\nDecember 2025 - Ownership of UK quoted shares - 2023-12-04\n\n\n\n\n\nDecember 2025 - GDP monthly estimate, UK - 2025-12-12\n\n\n\n\n\nJanuary 2026 - Gender pay gap in the UK - 2025-10-22\n\n\n\n\n\nJanuary 2026 - Industry-to-industry payment flows, UK: 2019 to 2025 -\n2026-01-30\n\n\n\n\n\nJanuary 2026 - Sexual orientation, UK - 2025-12-09\n\n\n\n\n\nJanuary 2026 - UK trade flows of containerised products through\nglobal maritime passages - 2025-12-08\n\n\n\n\n\nFebruary 2026 - Productivity flash estimate and overview, UK: October\nto December 2025 and July to September 2025 - 2026-02-17\n\n\n\n\n\nMarch 2026 - High streets and retail areas in Great Britain: March\n2026 - 2026-03-10\n\n\n\n\n\nMarch 2026 - High streets and retail areas in Great Britain: March\n2026 - 2026-03-10\n\n\n\n\n\nMarch 2026 - Housing affordability in England and Wales: 2025 -\n2026-03-26\n\n\n\n      \n      \n      Previous\n      \n    \n      \n      \n      Next\n      \n    \n\n\nYou can contact us at digitalcontent@ons.gov.uk and we will set up a consultation to see how we can best support you."
   }
 ]
