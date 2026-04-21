@@ -11,4 +11,4 @@ Carousels are built with [tomicapretto's quarto-carousel](https://github.com/tom
 ## Structure
 
 * Each folder contains a different page. 
-* Images for a specific page should go in the `page/images` folder, and images to be used in all pages (e.g. logos) should be in `images/`.
+* Images for a specific page should go in the `images/{page}` folder, and images to be used in all pages (e.g. logos) should be in `images/`.
