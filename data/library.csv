@@ -1,5 +1,4 @@
 ﻿Name/Alt text,URL,Section,Medium
-Natural cooling: how we are better measuring the local value of nature for urban cooling,https://blog.ons.gov.uk/2025/12/05/natural-cooling-how-we-are-better-measuring-the-local-value-of-nature-for-urban-cooling/,blog,website
 How we’re putting everything you need to know about a dataset on one page,https://onsdigital.blog.gov.uk/2025/04/08/how-were-putting-everything-you-need-to-know-about-a-dataset-on-one-page/,blog,website
 Dueling with axis: the problems with dual axis charts,https://digitalblog.ons.gov.uk/2019/07/03/dueling-with-axis-the-problems-with-dual-axis-charts/,blog,website
 Stacking the bars in your favour!,https://digitalblog.ons.gov.uk/2017/08/17/stacking-the-bars-in-your-favour/,blog,website
@@ -13,23 +12,168 @@ Your First Data Visualization With Svelte & D3,https://www.youtube.com/watch?v=-
 Creative Coding: Making Visuals with JavaScript,https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript,learning,video
 JS training,https://www.freecodecamp.org/learn,learning,website
 Svelte data vis videos from Mathias Stahl,https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8,learning,video
-Fundamentals of Data Visualization,https://clauswilke.com/dataviz/index.html,learning,book
 Invisible Women: Data Bias in a World Designed for Men,https://www.amazon.co.uk/Invisible-Women-Data-World-Designed/dp/1419729071,resource,book
 Pokemon based colour picker,https://pokepalettes.com/#bulbasaur,resource,website
 JSON validator - useful for identifying missing brackets etc in large and/or nested json files,https://jsonlint.com/,resource,website
 Colour ramp generator - a bit like colorBrewer but more fancy,https://rampgenerator.com,resource,website
-RSS Best Practices for Data Visualisation,https://rss.org.uk/datavisguide/,Style guide,website
-ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,Style guide,website
-Government Analysis Function,https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/,Style guide,website
-Economist style guide,https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf,Style guide,website
-Data visualization style guidelines,https://www.datavizstyleguide.com/,Style guide,website
-Urban Institute data visualization style guide,https://urbaninstitute.github.io/graphics-styleguide/,Style guide,website
-Ordnance Survey: More than maps,https://docs.os.uk/more-than-maps,Style guide,website
+RSS Best Practices for Data Visualisation,https://rss.org.uk/datavisguide/,style guide,website
+ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,style guide,website
+Government Analysis Function,https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/,style guide,website
+Economist style guide,https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf,style guide,website
+Data visualization style guidelines,https://www.datavizstyleguide.com/,style guide,website
+Urban Institute data visualization style guide,https://urbaninstitute.github.io/graphics-styleguide/,style guide,website
+Ordnance Survey: More than maps,https://docs.os.uk/more-than-maps,style guide,website
 The Pudding (Our Resources),https://pudding.cool/resources/,resource,website
-Quantum of Sollazzo,https://quantumofsollazzo.com/,Newsletter,website
-The Crunch Newsletter,https://www.theguardian.com/news/series/the-crunch-data-newsletter-email,Newsletter,website
-Datawrapper Newsletter,https://www.datawrapper.de/blog/newsletter,Newsletter,website
-The Visualising Data Newsletter,https://visualisingdata.com/newsletter/,Newsletter,website
-The Pudding Newsletter,https://pudding.cool/subscribe,Newsletter,website
-Chartography,https://www.chartography.net/,Newsletter,website
-The Data Storyteller's Newsletter,https://us21.campaign-archive.com/home/?u=aa646e8e2a136beb294a0817a&id=1d5ff1558e,Newsletter,website
+Quantum of Sollazzo,https://quantumofsollazzo.com/,newsletter,website
+The Crunch newsletter,https://www.theguardian.com/news/series/the-crunch-data-newsletter-email,newsletter,website
+Datawrapper newsletter,https://www.datawrapper.de/blog/newsletter,newsletter,website
+The Visualising Data newsletter,https://visualisingdata.com/newsletter/,newsletter,website
+The Pudding newsletter,https://pudding.cool/subscribe,newsletter,website
+Chartography,https://www.chartography.net/,newsletter,website
+The Data Storyteller's newsletter,https://us21.campaign-archive.com/home/?u=aa646e8e2a136beb294a0817a&id=1d5ff1558e,newsletter,website
+FT Visual Vocabulary,https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary,resource,website
+99 data viz rules and why it's OK to break them,https://www.addtwodigital.com/blog,blog,website
+"Mistakes, we've drawn a few",https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368,blog,website
+A checklist for designing and improving the visualization of scientific data,https://www.nature.com/articles/s41556-025-01684-z,resource,website
+Visualizing uncertainty about the future,https://www.stat.berkeley.edu/~aldous/157/Papers/spiegelhalter_visualizing.pdf,resource,website
+Data Feminism,https://direct.mit.edu/books/book/4660/Data-Feminism,resource,book
+ONS Digital Blog,https://digitalblog.ons.gov.uk/category/dataviz/,blog,website
+Data Viz Project,https://datavizproject.com/,resource,website
+VizHub,https://vizhub.com/,resource,website
+Saloni's guide to data visualization,https://www.scientificdiscovery.dev/p/salonis-guide-to-data-visualization,blog,website
+Open Visualization Academy,https://openvisualizationacademy.org/,learning,website
+VisLies,https://www.vislies.org/,blog,website
+Data Folks: List of information designers,https://juanchiparra.github.io/data-folks/,resource,website
+Data visualization podcasts,https://baryon.notion.site/b7307b3af0dd45e1a891feb54d996866?v=f72fa21424a74e55ad058cf4e50ba9da,resource,website
+Awesome Dataviz,https://github.com/hal9ai/awesome-dataviz,resource,website
+Visualizing Data resources,https://visualisingdata.com/resources/,resource,website
+Henry Lau resources,https://www.henrylau.co.uk/resources/,resource,website
+VizDex,https://vizdexproject.com/,resource,website
+More than maps external resources,https://docs.os.uk/more-than-maps/resources/data-visualisation-external-resources,resource,website
+Nicola Rennie,https://nrennie.rbind.io/,blog,website
+Cara Thompson,https://www.cararthompson.com/posts,blog,website
+Helena Jambor,https://helenajamborwrites.netlify.app/#category=datavis,blog,website
+Alberto Cairo (The Art of Insight),https://theartofinsight.substack.com/,blog,website
+Rita Giordano,https://ritagiordano.co.uk/,blog,website
+Federica Fragapane,https://www.domestika.org/en/federica_fragapane,learning,website
+Kieran Healy,https://kieranhealy.org/blog/,blog,website
+Tanya Shapiro,https://tanyaviz.com/,blog,website
+Kat Greenbrook (Rogue Penguin),https://www.roguepenguin.co.nz/blog,blog,website
+Albert Rapp,https://albert-rapp.de/blog#category=Visualization,blog,website
+Michael Friendly,https://www.datavis.ca/,blog,website
+Alli Torban,https://www.allitorban.com/,blog,website
+Amy Cesal,https://www.amycesal.com/,blog,website
+Ihar Yanouski,https://yanouski.com/,blog,website
+Moritz Stefaner (Truth and Beauty),https://truth-and-beauty.net/,blog,website
+Yan Holtz,https://www.yan-holtz.com/,blog,website
+Shirley Wu,https://sxywu.github.io/,blog,website
+Nadieh Bremer (Visual Cinnamon),https://www.visualcinnamon.com/about/,blog,website
+Neil Richards (Questions in Dataviz),https://questionsindataviz.com/,blog,website
+Nathan Yau (Flowing Data),https://flowingdata.com/,blog,website
+Jonathan Schwabish (Policy Viz),https://policyviz.com/blog/,blog,website
+Ilya Kashnitsky,https://ikashnitsky.phd/#category=dataviz,blog,website
+Zane Wolf,https://www.zanewolf.com/blog,blog,website
+Dallas Novakowski (Thought-doing),https://dallasnova.rbind.io/post/,blog,website
+Gregor Aisch,https://driven-by-data.net/,blog,website
+RJ Andrews (Info We Trust),https://infowetrust.com,blog,website
+Koen Van den Eeckhout (Baryon),https://baryon.be/blog/,blog,website
+Jacque Schrag,https://jacqueschrag.com/,blog,website
+Enrico Bertini,https://filwd.substack.com/,blog,website
+Lisa Hornung (Inside Numbers),https://inside-numbers.com/,blog,website
+Lisa Charlotte Muth,https://lisacharlottemuth.com/,blog,website
+Matthias Stahl,https://www.higsch.com/,blog,website
+Wendy Shijia,https://wendyshijia.notion.site/,blog,website
+Will Chase,https://www.williamrchase.com/,blog,website
+Giuseppe Sollazzo (Puntofisso),https://puntofisso.net/,blog,website
+Charlotte Hadley (Visible Data),https://www.visibledata.io/,blog,website
+Data Visualization Society,https://www.datavisualizationsociety.org/,resource,website
+PSI Visualisation Special Interest Group,https://www.psiweb.org/sigs-special-interest-groups/visualisation,blog,website
+EuroVis,https://eurovis.org.uk/,learning,website
+IEEE VIS,https://ieeevis.org/,learning,website
+Nightingale,https://nightingaledvs.com/,resource,website
+Visible Language,https://journals.uc.edu/index.php/vl/issue/archive,resource,website
+Viz Palette,https://projects.susielu.com/viz-palette,resource,website
+Coolors,https://coolors.co/generate,resource,website
+Data viz contrast tool,https://datavizcontrast.com/,resource,website
+Color Blender,https://meyerweb.com/eric/tools/color-blend/,resource,website
+dittoTones,https://meodai.github.io/dittoTones/,resource,website
+Building color palettes in your data visualization style guides,https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/,resource,website
+Analysing and comparing color palettes with cols4all,https://cols4all.github.io/cols4all-R/articles/01_paper.html,resource,website
+How to find and create good color palettes,https://www.datawrapper.de/blog/create-good-color-palettes,resource,website
+Python color palette finder,https://python-graph-gallery.com/color-palette-finder/,resource,website
+Poline,https://meodai.github.io/poline/,resource,website
+Color palettes for geoscientific visualization,https://dominicroye.github.io/color-for-geoscience/,resource,website
+Writing alt text for data visualization,https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81,resource,website
+How to write text descriptions (alt text) in BBC News articles,https://www.bbc.co.uk/gel/how-to-write-text-descriptions-alt-text,resource,website
+Why your data viz needs alt text,https://academic.oup.com/jrssig/article/20/1/38/7034177,resource,website
+Making charts accessible,https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4,resource,website
+Dataviz accessibility resources,https://github.com/dataviza11y/resources,resource,website
+"Preference for and understanding of graphs presenting health risk information. The role of age, health literacy, numeracy and graph literacy",https://www.sciencedirect.com/science/article/pii/S0738399120303499?via%3Dihub,resource,website
+Judgment error in pie chart variations,https://diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content,resource,website
+What Makes a Visualization Memorable?,https://ieeexplore.ieee.org/abstract/document/6634103,resource,website
+"Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods",http://euclid.psych.yorku.ca/www/psy6135/papers/ClevelandMcGill1984.pdf,resource,website
+Automating the design of graphical presentations of relational information,https://doi.org/10.1145/22949.22950,resource,website
+Psychology of data visualization,https://friendly.github.io/6135/,learning,website
+Using D3 with Svelte,https://datavisualizationwithsvelte.com/,learning,website
+A ggplot2 Grammar Guide,https://evamaerey.github.io/ggplot2_grammar_guide/about,resource,website
+Visualization for Social Data Science,https://vis4sds.github.io/vis4sds/,resource,website
+ggplot2: Elegant Graphics for Data Analysis,https://ggplot2-book.org/,resource,website
+ggplot2 extended,https://ggplot2-extended-book.com/,resource,website
+R Graphics Cookbook,https://r-graphics.org/,resource,website
+The Art of Visualization with ggplot2,https://nrennie.rbind.io/art-of-viz,resource,website
+Data Visualization with Plotnine,https://f0nzie.github.io/rmarkdown-python-plotnine/,resource,website
+ggiraph Book,https://www.ardata.fr/ggiraph-book/,resource,website
+Telling Stories with Data,https://tellingstorieswithdata.com/,resource,website
+Data Visualization: A Practical Introduction,https://socviz.co/,resource,website
+A layered grammar of graphics,http://dx.doi.org/10.1198/jcgs.2009.07098,resource,website
+R Graph Gallery,https://r-graph-gallery.com/,resource,website
+Python Graph Gallery,https://python-graph-gallery.com/,resource,website
+ggdist: Visualizations of Distributions and Uncertainty in the Grammar of Graphics,https://doi.org/10.1109/TVCG.2023.3327195,resource,website
+Datawrapper,https://www.datawrapper.de/,resource,website
+Flourish,https://flourish.studio/,resource,website
+SveltePlot,https://svelteplot.dev/,resource,website
+Observable,https://observablehq.com/,resource,website
+Tableau,https://www.tableau.com/,resource,website
+D3,https://d3js.org/,resource,website
+RAWGraphs,https://www.rawgraphs.io/,resource,website
+ggplot2,https://ggplot2.tidyverse.org/,resource,website
+Plotnine,https://plotnine.org/,resource,website
+Highcharts,https://www.highcharts.com/,resource,website
+Inkscape,https://inkscape.org/,resource,website
+Figma,https://www.figma.com/,resource,website
+Information is Beautiful,https://informationisbeautiful.net/,resource,website
+Datawrapper Blog,https://www.datawrapper.de/blog/,blog,website
+Wonderful Wednesdays,https://www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays,resource,website
+Data is Beautiful,https://www.reddit.com/r/dataisbeautiful/,resource,website
+PSI Wonderful Wednesdays,https://vis-sig.github.io/blog/,blog,website
+TidyTuesday Bluesky Feed,https://bsky.app/profile/nrennie.bsky.social/feed/aaam7sw6umjoq,resource,website
+2020 30 Day Map Challenge Gallery,https://david.frigge.nz/30DayMapChallenge2020/maps.html,resource,website
+Sports Viz Sunday,https://www.sportsvizsunday.com/,resource,website
+Storytelling with Data,https://community.storytellingwithdata.com/challenges,resource,website
+30 Day Chart Challenge Bluesky,https://bsky.app/profile/30daychartchall.bsky.social,resource,website
+Massachusetts (Massive) Visualization Dataset,http://massvis.mit.edu/,resource,website
+Help Me Viz,https://helpmeviz.com/,resource,website
+Recreations of W.E.B Dubois's Data Portraits,https://github.com/ajstarks/dubois-data-portraits/,resource,website
+Storytelling with Data,https://www.storytellingwithdata.com/,resource,website
+Visual Capitalist,https://www.visualcapitalist.com/,resource,website
+The Pudding,https://pudding.cool/,resource,website
+Our World in Data,https://ourworldindata.org/,resource,website
+New York Times (What's Going On in This Graph?),https://www.nytimes.com/column/whats-going-on-in-this-graph,resource,website
+USAFacts,https://usafacts.org/visualizations/,resource,website
+Financial Times Visual Journalism,https://www.ft.com/visual-and-data-journalism,resource,website
+The Guardian Visual Journalism,https://www.theguardian.com/interactive,resource,website
+Beautiful Public Data,https://www.beautifulpublicdata.com/,resource,website
+Engineers of Map Art,https://www.research-collection.ethz.ch/entities/publication/a5baabb8-075e-401c-842a-4d77f3badd42,resource,website
+r2d3: R Interface to D3 Visualizations,https://rstudio.github.io/r2d3/,resource,website
+D3.js graph gallery,https://d3-graph-gallery.com/index.html,resource,website
+D3 Color Schemes,https://observablehq.com/@d3/color-schemes,resource,website
+Getting started with D3.js,https://medium.com/@john.goodman/getting-started-with-d3-js-6de226320878,learning,website
+WebAIM Contrast Checker,https://webaim.org/resources/contrastchecker/,resource,website
+"Dataviz accessibility principles, demonstrated by the 2024 presidential election dashboards.",https://fossheim.io/writing/posts/2024-dataviz-a11y-elections/,blog,website
+CSS Gradient Generator,https://www.joshwcomeau.com/gradient-generator/,resource,website
+Chroma.js Color Palette Helper,"https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1",resource,website
+Flexbox Froggy,https://flexboxfroggy.com/,learning,website
+Mapshaper,https://mapshaper.org/,resource,website
+"UK Administrative Geographies, 2014–2025",https://onsdigital.github.io/uk-topojson/,resource,website
+The Information Design Insider,https://gabriellemerite.substack.com/,blog,website
+Xenographics,https://xeno.graphics/,resource,website
