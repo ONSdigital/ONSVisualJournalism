@@ -23,7 +23,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("jsonlite", "curl", "dplyr", "glue", "stringr", "DT", "rmarkdown", "knitr", "readr"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("jsonlite", "curl", "dplyr", "glue", "stringr", "DT", "rmarkdown", "knitr", "readr", "glue", "lubridate"), repos="https://cloud.r-project.org")'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
