@@ -3,7 +3,6 @@ library(jsonlite)
 library(dplyr)
 library(stringr)
 library(glue)
-library(tidyr)
 library(lubridate)
 
 # clean_dates function - to tidy the dates from articles-and-dvcs.json
@@ -112,7 +111,8 @@ carousel_data <- carousel_data_1 %>%
       select(vis_urls, release_date, title, doc_uri),
     by = c("vis_url_short" = "vis_urls")
   ) %>%
-  mutate(caption = glue("{cotm_month} - {title} - {release_date}"))
+  mutate(caption = glue("{cotm_month} - {title} - {release_date}")) 
+
 
 write.csv(carousel_data, "data/cotm_carousel_data.csv")
 
