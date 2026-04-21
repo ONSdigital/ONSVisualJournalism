@@ -3,6 +3,7 @@ library(jsonlite)
 library(dplyr)
 library(stringr)
 library(glue)
+library(tidyr)
 library(lubridate)
 
 # clean_dates function - to tidy the dates from articles-and-dvcs.json
