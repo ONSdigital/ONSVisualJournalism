@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -40,13 +39,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f51435bc763b42683c6c35feae7e0b4f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9c9ab54e7a46ad3a666b0dc2a86269ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -74,55 +73,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdn.ons.gov.uk/vendor/accessible-autocomplete/3.0.1/accessible-autocomplete.min.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg border-bottom" data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ONS Visual Journalism</span>
-    </a>
-  </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./whoarewe.html" aria-current="page"> 
-<span class="menu-text">Who are we</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./recent.html"> 
-<span class="menu-text">Recent work</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cotm.html"> 
-<span class="menu-text">Chart of the month</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./visualvocabulary.html"> 
-<span class="menu-text">Visual Vocabulary</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./library.html"> 
-<span class="menu-text">Library</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -212,18 +167,50 @@ ul.task-list li input[type="checkbox"] {
       </div>
     </div>
   </div>
-  <!-- <div class="ons-header__main">
+    <div class="ons-header__main">
     <div class="ons-container">
-      <div
-        class="ons-grid ons-grid-flex ons-grid-flex--between ons-grid-flex--vertical-center ons-grid-flex--no-wrap ons-grid--gutterless">
+      <div class="ons-grid ons-grid-flex ons-grid-flex--between ons-grid-flex--vertical-center ons-grid-flex--no-wrap ons-grid--gutterless">
         <div class="ons-grid__col ons-col-auto ons-u-flex-shrink">
-          <a class="ons-header__title-link" href="#0">
-            <div class="ons-header__title">Page title</div>
+          <a class="ons-header__title-link" href="./">
+            <div class="ons-header__title">ONS Visual Journalism</div>
           </a>
+        </div>
+        <div class="ons-grid__col ons-col-auto ons-u-flex-no-shrink ons-u-d-no@l">
+          <button type="submit" class="ons-btn ons-u-ml-2xs ons-u-d-no ons-js-navigation-button ons-u-d-no@l ons-btn--mobile ons-btn--ghost" aria-label="Toggle main menu" aria-controls="main-nav" aria-expanded="false">
+            <span class="ons-btn__inner"><span class="ons-btn__text">Menu</span><svg class="ons-icon ons-u-ml-2xs" viewbox="0 0 8 13" xmlns="http://www.w3.org/2000/svg" focusable="false" fill="currentColor" role="img" aria-hidden="true">
+                <path d="M5.74,14.28l-.57-.56a.5.5,0,0,1,0-.71h0l5-5-5-5a.5.5,0,0,1,0-.71h0l.57-.56a.5.5,0,0,1,.71,0h0l5.93,5.93a.5.5,0,0,1,0,.7L6.45,14.28a.5.5,0,0,1-.71,0Z" transform="translate(-5.02 -1.59)"></path>
+              </svg></span>
+          </button>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+  <div class="ons-navigation-wrapper">
+    <div class="ons-container ons-container--gutterless@2xs@l">
+      <nav class="ons-navigation ons-navigation--main ons-js-navigation" id="main-nav" aria-label="Main menu" data-analytics="header-navigation">
+        <ul class="ons-navigation__list">
+          <li class="ons-navigation__item ons-navigation__item--active">
+            <a class="ons-navigation__link" href="./"> Home </a>
+          </li>
+          <li class="ons-navigation__item">
+            <a class="ons-navigation__link" href="./whoarewe.html"> About </a>
+          </li>
+          <li class="ons-navigation__item">
+            <a class="ons-navigation__link" href="./resources.html"> Resources </a>
+          </li>
+          <li class="ons-navigation__item">
+            <a class="ons-navigation__link" href="./cotm.html"> Chart of the month </a>
+          </li>
+          <li class="ons-navigation__item">
+            <a class="ons-navigation__link" href="./visualvocabulary.html"> Visual Vocabulary </a>
+          </li>
+          <li class="ons-navigation__item">
+            <a class="ons-navigation__link" href="./library.html"> Library </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header><p>Our team focuses on improving the understanding and engagement with ONS analysis. We offer a range of services in data visualisation, journalism, graphic design, content design and social media.</p>
 <section id="awards" class="level2">
 <h2 data-anchor-id="awards">Awards</h2>

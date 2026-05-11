@@ -7,6 +7,7 @@ about:
   image: images/home/census.png
   image-width: 27em 
   image-shape: round
+body-classes: home
 ---
 
 :::{#hero-heading}

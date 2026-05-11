@@ -49,33 +49,42 @@ $body-bg: #ffffff;
 
 // account for fixed headers
 body {
-  padding-top: calc(var(--ons-header-height) + 60px);
+  // padding-top: calc(var(--ons-header-height) + 60px);
+  padding-top: 0
+}
+
+
+#quarto-content {
+  padding-top: 172px;
 }
 
 // // nav
 // $navbar-bg: var(--ons-color-header);
 // $navbar-hl: $ons-night-blue10;
 
-
-#quarto-header .navbar {
-  background-color: var(--ons-color-header);
+#quarto-header {
+  display: none;
 }
 
-
-#quarto-header .navbar .navbar-title {
-  color: var(--ons-color-text-inverse);
-  font-weight: 700;
-}
+// #quarto-header .navbar {
+//   background-color: var(--ons-color-header);
+// }
 
 
-#quarto-header .navbar .nav-link {
-  color: var(--ons-color-text-inverse);
-}
+// #quarto-header .navbar .navbar-title {
+//   color: var(--ons-color-text-inverse);
+//   font-weight: 700;
+// }
 
 
-#quarto-header .navbar .nav-link.active {
-  font-weight: 700;
-}
+// #quarto-header .navbar .nav-link {
+//   color: var(--ons-color-text-inverse);
+// }
+
+
+// #quarto-header .navbar .nav-link.active {
+//   font-weight: 700;
+// }
 
 
 .page-navbar #quarto-document-content {
@@ -186,10 +195,6 @@ h2 {
 }
 
 
-:root {
-  --ons-header-height: 52px;
-}
-
 main#quarto-document-content {
   position: static !important;
   overflow: visible !important;
@@ -204,13 +209,13 @@ main#quarto-document-content {
   z-index: 1031 !important;
 }
 
-#quarto-header {
-  position: fixed !important;
-  top: var(--ons-header-height) !important;
-  left: 0 !important;
-  right: 0 !important;
-  z-index: 1030;
-}
+// #quarto-header {
+//   position: fixed !important;
+//   top: var(--ons-header-height) !important;
+//   left: 0 !important;
+//   right: 0 !important;
+//   z-index: 1030;
+// }
 
 
 .ons-header {
@@ -222,8 +227,6 @@ main#quarto-document-content {
   margin: 0;
   padding: 0 1rem;
 }
-
-
 
 .author {
   color: $body-bg;
@@ -276,13 +279,13 @@ section.has-light-background a, section.has-light-background a:hover {
 .card-title {
   font-weight: $headings-font-weight;
   font-size: 150%;
-  // text-decoration: underline;
 }
 .card-subtitle {
   color: $ons-black;
   font-size: 100%;
   margin-bottom: 1.3rem;
   // margin-top: 1.3rem;
+  // text-decoration: none !important;
 }
 
 .card-text { 
@@ -296,7 +299,6 @@ section.has-light-background a, section.has-light-background a:hover {
   padding-bottom: 0;
   margin-bottom: 0.5rem;
 }
-
   
 .card-img-top {
   height: 200px;    
@@ -312,10 +314,23 @@ section.has-light-background a, section.has-light-background a:hover {
   font-size:75%;
   font-weight: 100;
   }
+  
+.ons-card__link {
+  text-decoration: none;
+}
 
+.ons-card__link .ons-card__title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0px;
+}
+
+.ons-card__link:hover .ons-card__title {
+  text-decoration-thickness: 3px;
+}
 
 .ons-card__link .card-subtitle {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
   #footer {
@@ -335,3 +350,17 @@ section.has-light-background a, section.has-light-background a:hover {
     color: var(--ons-color-text-banner-link);
     text-decoration: underline;
   }
+
+  
+:root {
+  --ons-header-height: 179px;
+}
+
+/* Offset content for fixed ONS header */
+main#quarto-document-content {
+  padding-top: calc(var(--ons-header-height) + 20px);
+}
+
+.home main#quarto-document-content {
+  padding-top: calc(var(--ons-header-height) - 30px);
+}

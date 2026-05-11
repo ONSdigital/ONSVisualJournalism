@@ -4,16 +4,16 @@ project:
 website:
   title: "ONS Visual Journalism"
   body-header: _includes/header.html
-  navbar:
-    search: false
-    background: none
-    left:
-      - whoarewe.qmd
-      - recent.qmd
-      - resources.qmd
-      - cotm.qmd
-      - visualvocabulary.qmd
-      - library.qmd
+  navbar: false
+    # search: false
+    # background: none
+    # left:
+    #   - whoarewe.qmd
+    #   - recent.qmd
+    #   - resources.qmd
+    #   - cotm.qmd
+    #   - visualvocabulary.qmd
+    #   - library.qmd
   favicon: logo.png
 
 format:
