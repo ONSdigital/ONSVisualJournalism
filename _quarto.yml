@@ -5,15 +5,6 @@ website:
   title: "ONS Visual Journalism"
   body-header: _includes/header.html
   navbar: false
-    # search: false
-    # background: none
-    # left:
-    #   - whoarewe.qmd
-    #   - recent.qmd
-    #   - resources.qmd
-    #   - cotm.qmd
-    #   - visualvocabulary.qmd
-    #   - library.qmd
   favicon: logo.png
 
 format:
@@ -21,6 +12,7 @@ format:
     page-layout: full
     anchor-sections: false
     link-external-newwindow: true
+    include-after-body: _includes\after-body.html
     theme:
       - ONSstyle.scss
       - cosmo
