@@ -364,3 +364,15 @@ main#quarto-document-content {
 .home main#quarto-document-content {
   padding-top: calc(var(--ons-header-height) - 30px);
 }
+
+.ons-footer {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.page-layout-full .ons-footer .ons-container {
+  max-width: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

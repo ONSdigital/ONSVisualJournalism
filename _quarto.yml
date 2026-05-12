@@ -12,7 +12,7 @@ format:
     page-layout: full
     anchor-sections: false
     link-external-newwindow: true
-    include-after-body: _includes\after-body.html
+    include-after-body: _includes/after-body.html
     theme:
       - ONSstyle.scss
       - cosmo
