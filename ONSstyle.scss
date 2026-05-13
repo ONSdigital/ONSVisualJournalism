@@ -219,6 +219,7 @@ section.has-light-background a, section.has-light-background a:hover {
 
   .cotm-criteria-table {
     margin: 0.9rem 0 1.2rem;
+    margin-left: max(0px, calc((70% - 25.5rem) / 2));
     width: auto;
     display: inline-table;
     table-layout: fixed;
@@ -230,6 +231,12 @@ section.has-light-background a, section.has-light-background a:hover {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 60, 87, 0.08);
     overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .cotm-criteria-table {
+      margin-left: 0;
+    }
   }
 
   .cotm-criteria-table td {
