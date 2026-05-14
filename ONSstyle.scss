@@ -21,6 +21,7 @@ $ons-spring-green: #a8bd3a;
 $ons-aqua-teal: #00a3a6;
 $ons-ocean-blue: #206095;
 $ons-sky-blue: #27a0cc;
+$ons-focus-colour: #FFA500;
 $ons-night-blue70: #4d7789;
 $ons-night-blue40: #99b1bd;
 $ons-night-blue10: #e6ecee;
@@ -28,6 +29,7 @@ $ons-night-blue10: #e6ecee;
 $ons-black: #222222;
 $ons-grey100: #414042;
 $ons-grey75: #707071;
+$ons-grey50: #a09fa0;
 $ons-grey35: #bcbcbd;
 $ons-grey15: #e2e2e3;
 $ons-grey5: #f5f5f6;
@@ -270,3 +272,54 @@ section.has-light-background a, section.has-light-background a:hover {
     color: $ons-white;
     text-decoration: none;
   }
+
+  .carousel-indicators,
+  .carousel-dark .carousel-indicators {
+    width: 25.5rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+  }
+
+  .carousel-indicators::before,
+  .carousel-dark .carousel-indicators::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 2px;
+    transform: translateY(-50%);
+    background-color: $ons-grey50;
+    z-index: 0;
+  }
+
+  .carousel-indicators [data-bs-target],
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: $ons-night-blue !important;
+    opacity: 1;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    border-radius: 50%;
+    border: 2px solid $ons-grey50;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+  }
+
+  .carousel-indicators .active,
+  .carousel-dark .carousel-indicators .active {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: $ons-night-blue !important;
+    border: 0 !important;
+    box-shadow: 0 0 0 2px $ons-grey50;
+    z-index: 1;
+  }
+

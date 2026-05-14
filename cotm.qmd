@@ -1,16 +1,11 @@
----
+ ---
 title: "Chart of the month"
 format: html
 ---
 
-A few examples of charts that we have loved in the past, based on
+A curated set of charts we’ve loved over time, selected for impact, aesthetics, clarity, novelty and overall appeal.
 
-<table class="cotm-criteria-table">
-	<tbody>
-		<tr><td>Impact</td><td>Aesthetics</td><td>Clarity</td></tr>
-		<tr><td>Novelty</td><td>Impact</td><td>General love</td></tr>
-	</tbody>
-</table>
+
 
 {{< include _includes/carousel.qmd >}}
 
