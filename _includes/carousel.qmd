@@ -33,4 +33,10 @@
 :::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2251.png" height="400px" caption="March 2026 - Housing affordability in England and Wales: 2025 - 2026-03-26"}
 ::::
 
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2278.png" height="400px" caption="April 2026 - UK population projection explorer - 2026-04-28"}
+::::
+
+:::: {.carousel-item image="https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/main/screenshots/2261.png" height="400px" caption="April 2026 - Families and households in the UK: 2025 - 2026-04-17"}
+::::
+
 :::::

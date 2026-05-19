@@ -76,11 +76,11 @@ url <- "https://raw.githubusercontent.com/ONSdigital/get-ons-vis-screenshots/mai
 tmp <- tempfile(fileext = ".json")
 curl_download(url, tmp)
 
-data <- fromJSON(tmp, flatten = TRUE)
+dat <- fromJSON(tmp, flatten = TRUE)
 
 
 df_long <- unnest_longer(
-  data,
+  dat,
   vis_urls,
   keep_empty = TRUE
 ) %>%
@@ -96,7 +96,7 @@ releases_w_vis <- df_long %>%
   ) %>%
   rename(release_date = parsed_date)
 
-rm(data, df_long)
+rm(dat, df_long)
 
 # join the three together
 
@@ -115,7 +115,7 @@ carousel_data <- carousel_data_1 %>%
   mutate(caption = glue("{cotm_month} - {title} - {release_date}")) 
 
 
-write.csv(carousel_data, "data/cotm_carousel_data.csv")
+write.csv(carousel_data, "data/cotm_carousel_data.csv", row.names=F)
 
 rm(carousel_data_1)
 
