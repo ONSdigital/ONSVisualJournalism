@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/about.html</loc>
+    <lastmod>2026-05-19T09:58:02.223Z</lastmod>
+  </url>
+  <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/resources.html</loc>
-    <lastmod>2026-05-14T11:15:11.308Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/index.html</loc>
-    <lastmod>2026-05-14T11:15:11.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/library.html</loc>
-    <lastmod>2026-05-14T11:15:11.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/blog.html</loc>
-    <lastmod>2026-05-14T11:15:11.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/visualvocabulary.html</loc>
-    <lastmod>2026-05-14T11:15:11.310Z</lastmod>
+    <lastmod>2026-05-19T09:58:02.299Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/whoarewe.html</loc>
-    <lastmod>2026-05-14T11:15:11.310Z</lastmod>
+    <lastmod>2026-05-19T09:58:02.300Z</lastmod>
   </url>
   <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/about.html</loc>
-    <lastmod>2026-05-14T11:15:11.234Z</lastmod>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/blog.html</loc>
+    <lastmod>2026-05-19T09:58:02.223Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/cotm.html</loc>
-    <lastmod>2026-05-14T11:15:11.234Z</lastmod>
+    <lastmod>2026-05-19T09:58:02.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/index.html</loc>
+    <lastmod>2026-05-19T09:58:02.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/library.html</loc>
+    <lastmod>2026-05-19T09:58:02.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/visualvocabulary.html</loc>
+    <lastmod>2026-05-19T09:58:02.300Z</lastmod>
   </url>
 </urlset>
