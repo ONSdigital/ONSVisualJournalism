@@ -18,6 +18,7 @@ format:
     page-layout: full
     anchor-sections: false
     link-external-newwindow: true
+    css: styles.css
     theme:
       - cosmo
       - ONSstyle.scss

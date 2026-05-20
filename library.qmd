@@ -3,7 +3,7 @@ title: "Library"
 format: html
 ---
 
-Resources that we have found useful for data visualisation work.
+{{< include _includes/library_text.qmd >}}
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 suppressPackageStartupMessages(library(DT))
