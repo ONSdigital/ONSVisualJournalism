@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/about.html</loc>
-    <lastmod>2026-05-20T08:19:37.115Z</lastmod>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/cotm.html</loc>
+    <lastmod>2026-05-29T12:38:33.373Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/recent.html</loc>
+    <lastmod>2026-05-29T12:38:33.448Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/resources.html</loc>
-    <lastmod>2026-05-20T08:19:37.197Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/whoarewe.html</loc>
-    <lastmod>2026-05-20T08:19:37.197Z</lastmod>
+    <lastmod>2026-05-29T12:38:33.448Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/blog.html</loc>
-    <lastmod>2026-05-20T08:19:37.115Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/cotm.html</loc>
-    <lastmod>2026-05-20T08:19:37.115Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/index.html</loc>
-    <lastmod>2026-05-20T08:19:37.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/library.html</loc>
-    <lastmod>2026-05-20T08:19:37.190Z</lastmod>
+    <lastmod>2026-05-29T12:38:33.373Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/visualvocabulary.html</loc>
-    <lastmod>2026-05-20T08:19:37.197Z</lastmod>
+    <lastmod>2026-05-29T12:38:33.449Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/library.html</loc>
+    <lastmod>2026-05-29T12:38:33.441Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/whoarewe.html</loc>
+    <lastmod>2026-05-29T12:38:33.449Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/index.html</loc>
+    <lastmod>2026-05-29T12:38:33.441Z</lastmod>
   </url>
 </urlset>
