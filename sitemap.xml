@@ -2,34 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/cotm.html</loc>
-    <lastmod>2026-05-29T12:42:33.235Z</lastmod>
+    <lastmod>2026-05-29T13:19:51.823Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/recent.html</loc>
-    <lastmod>2026-05-29T12:42:33.281Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/resources.html</loc>
-    <lastmod>2026-05-29T12:42:33.281Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/blog.html</loc>
-    <lastmod>2026-05-29T12:42:33.235Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/visualvocabulary.html</loc>
-    <lastmod>2026-05-29T12:42:33.282Z</lastmod>
+    <lastmod>2026-05-29T13:19:51.875Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/library.html</loc>
-    <lastmod>2026-05-29T12:42:33.274Z</lastmod>
+    <lastmod>2026-05-29T13:19:51.868Z</lastmod>
   </url>
   <url>
-    <loc>https://ONSdigital.github.io/ONSVisualJournalism/whoarewe.html</loc>
-    <lastmod>2026-05-29T12:42:33.282Z</lastmod>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/blog.html</loc>
+    <lastmod>2026-05-29T13:19:51.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/about.html</loc>
+    <lastmod>2026-05-29T13:19:51.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ONSdigital.github.io/ONSVisualJournalism/resources.html</loc>
+    <lastmod>2026-05-29T13:19:51.875Z</lastmod>
   </url>
   <url>
     <loc>https://ONSdigital.github.io/ONSVisualJournalism/index.html</loc>
-    <lastmod>2026-05-29T12:42:33.274Z</lastmod>
+    <lastmod>2026-05-29T13:19:51.868Z</lastmod>
   </url>
 </urlset>
