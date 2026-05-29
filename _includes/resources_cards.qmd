@@ -1,0 +1,75 @@
+
+``` {=html}
+<div class="ons-container">
+  <div class="ons-grid">
+
+    <div class="ons-grid__col ons-col-4@m">
+      <div class="ons-card">
+        <a href="https://github.com/ONSvisual/Charts" class="ons-card__link">
+          <img class="ons-card__image ons-u-mb-s " height="100" width="303"
+            src="images/resources_thumbnails/charts.png" alt="" loading="lazy" />
+          <h2 class="ons-card__title ons-u-fs-m" id="card-with-image-1"> Charts</h2>
+        </a>
+        <p id="text1" class="ons-card__body">A small blurb about charts - link is to charts repo.</p>
+      </div>
+    </div>
+
+    <div class="ons-grid__col ons-col-4@m">
+      <div class="ons-card">
+        <a href="https://github.com/ONSdigital/maptemplates" class="ons-card__link">
+          <img class="ons-card__image ons-u-mb-s " height="100" width="303"
+            src="images/resources_thumbnails/maps.png" alt="" loading="lazy" />
+          <h2 class="ons-card__title ons-u-fs-m" id="card-with-image-2"> Map templates </h2>
+        </a>
+        <p id="text2" class="ons-card__body">Blurb about map templates.</p>
+      </div>
+    </div>
+
+    <div class="ons-grid__col ons-col-4@m">
+      <div class="ons-card">
+        <a href="https://gitlab-app-l-01/ONSvisual" class="ons-card__link">
+          <img class="ons-card__image ons-u-mb-s " height="100" width="303"
+            src="images/resources_thumbnails/onsvisual.png" alt="" loading="lazy" />
+          <h2 class="ons-card__title ons-u-fs-m" id="card-with-image-3"> ONSvisual </h2>
+        </a>
+        <p id="text3" class="ons-card__body">Some blurb about ONSvisual
+        </p>
+      </div>
+    </div>
+
+    <div class="ons-grid__col ons-col-4@m">
+      <div class="ons-card">
+        <a href="https://service-manual.ons.gov.uk/data-visualisation" class="ons-card__link">
+          <img class="ons-card__image ons-u-mb-s " height="100" width="303"
+            src="images/resources_thumbnails/servicemanual.png" alt="" loading="lazy" />
+          <h2 class="ons-card__title ons-u-fs-m" id="card-with-image-1"> Service manual </h2>
+        </a>
+        <p id="text1" class="ons-card__body">A bit of blurb about the service manual</p>
+      </div>
+    </div>
+    <div class="ons-grid__col ons-col-4@m">
+      <div class="ons-card">
+        <a href="https://www.ons.gov.uk/explore-local-statistics/" class="ons-card__link">
+          <img class="ons-card__image ons-u-mb-s " height="100" width="303"
+            src="images/resources_thumbnails/els.png" alt="" loading="lazy" />
+          <h2 class="ons-card__title ons-u-fs-m" id="card-with-image-2"> Explore Local Statistics </h2>
+        </a>
+        <p id="text2" class="ons-card__body">A bit of blurb about the Explore Local Statistics service.</p>
+      </div>
+    </div>
+
+    <div class="ons-grid__col ons-col-4@m">
+      <div class="ons-card">
+        <a href="https://onsdigital.github.io/uk-topojson/" class="ons-card__link">
+          <img class="ons-card__image ons-u-mb-s " height="100" width="303"
+            src="images/resources_thumbnails/geogs.png" alt="" loading="lazy" />
+          <h2 class="ons-card__title ons-u-fs-m" id="card-with-image-3"> UK Administrative Geographies </h2>
+        </a>
+        <p id="text3" class="ons-card__body">Subtitle about tool for downloading UK geographies 2014–2025
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+```

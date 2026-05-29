@@ -3,14 +3,8 @@ project:
 
 website:
   title: "ONS Visual Journalism"
-  navbar:
-    search: false
-    left:
-      - whoarewe.qmd
-      - resources.qmd
-      - cotm.qmd
-      - visualvocabulary.qmd
-      - library.qmd
+  body-header: _includes/header.html
+  navbar: false
   favicon: logo.png
 
 format:
@@ -18,11 +12,15 @@ format:
     page-layout: full
     anchor-sections: false
     link-external-newwindow: true
-    css: styles.css
+    include-after-body: _includes/after-body.html
     theme:
-      - cosmo
       - ONSstyle.scss
-    toc: true
+      - cosmo
+    toc: false
+    css:
+      - https://cdn.ons.gov.uk/sdc/design-system/73.3.0/css/main.css
+      - https://cdn.ons.gov.uk/vendor/accessible-autocomplete/3.0.1/accessible-autocomplete.min.css
+
 
 filters:
   - carousel    
