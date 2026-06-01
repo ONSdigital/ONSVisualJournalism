@@ -1,0 +1,2 @@
+//js
+import{a as g,f as h}from"../chunks/C7l7Tchu.js";import{p as v,f as d,t as l,g as _,j as a,r as o,s as x}from"../chunks/DInywlPj.js";import{s as p}from"../chunks/Cdz1Jdi5.js";import{s as $,p as m}from"../chunks/CWI0bkJt.js";const k={get error(){return m.error},get status(){return m.status}};$.updated.check;const f=k;var b=h("<h1> </h1> <p> </p>",1);function y(c,n){v(n,!0);var t=b(),r=d(t),u=a(r,!0);o(r);var e=x(r,2),i=a(e,!0);o(e),l(()=>{var s;p(u,f.status),p(i,(s=f.error)==null?void 0:s.message)}),g(c,t),_()}export{y as component};
