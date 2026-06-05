@@ -5,7 +5,7 @@
 
 // font family
 $font-family-sans-serif: 'Open Sans', Arial, sans-serif !default;
-$headings-font-weight:        300 !default;
+$headings-font-weight: 300 !default;
 
 // font size
 $presentation-h1-font-size: 2.6em;
@@ -102,13 +102,16 @@ body {
   font-family: $font-family-sans-serif;
 }
 
-.title, .subtitle, .quarto-title-author-name, .date {
+.title,
+.subtitle,
+.quarto-title-author-name,
+.date {
   text-align: left;
   padding-left: 0px;
 }
 
 a {
-    color:$ons-ocean-blue;
+  color: $ons-ocean-blue;
 }
 
 .plain-link,
@@ -129,7 +132,8 @@ a {
   color: $ons-night-blue10
 }
 
-.quarto-title-authors, .quarto-title-author {
+.quarto-title-authors,
+.quarto-title-author {
   justify-content: left !important;
   padding-left: 0px !important;
 }
@@ -145,7 +149,7 @@ h2 {
 
 .about-entity .about-link {
   padding: 0.25em 0.25em !important;
-  border: none !important; 
+  border: none !important;
   justify-content: flex-end !important;
   column-gap: 0em !important;
   font-size: 1.2em !important;
@@ -174,9 +178,21 @@ h2 {
 }
 
 .about-contents {
-   padding: 0 0 0 2em !important;
+  padding: 0 0 0 2em !important;
 }
 
+img.about-image {
+  width: 100% !important;
+  max-width: 27em !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+img.about-image.round {
+  aspect-ratio: 1 / 1 !important;
+}
 
 @media (max-width: 991.98px) {
 
@@ -204,9 +220,13 @@ h2 {
   }
 
   .about-image {
-      order: 1 !important;
-      padding: 2em 2em 2em 2em !important;
-    }
+    order: 1 !important;
+    padding: 2em 2em 2em 2em !important;
+  }
+
+  .about-contents {
+    padding: 0 0 0 0 !important;
+  }
 }
 
 
@@ -255,11 +275,13 @@ main#quarto-document-content {
   font-family: $font-family-sans-serif;
 }
 
-section.has-dark-background a, section.has-dark-background a:hover {
+section.has-dark-background a,
+section.has-dark-background a:hover {
   color: $body-bg;
 }
 
-section.has-light-background a, section.has-light-background a:hover {
+section.has-light-background a,
+section.has-light-background a:hover {
   color: $link-color !important;
 }
 
@@ -272,7 +294,7 @@ section.has-light-background a, section.has-light-background a:hover {
 }
 
 .small {
- font-size: 30px;
+  font-size: 30px;
 }
 
 .big {
@@ -284,17 +306,18 @@ section.has-light-background a, section.has-light-background a:hover {
 // Cards 
 
 .card {
-    background-color:$ons-grey5;
-  }
+  background-color: $ons-grey5;
+}
 
 .ons-card__title {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card-title {
   font-weight: $headings-font-weight;
   font-size: 150%;
 }
+
 .card-subtitle {
   color: $ons-black;
   font-size: 100%;
@@ -303,11 +326,11 @@ section.has-light-background a, section.has-light-background a:hover {
   // text-decoration: none !important;
 }
 
-.card-text { 
-  font-size:75%;
+.card-text {
+  font-size: 75%;
   font-weight: 100;
-  }
-  
+}
+
 .ons-card h2,
 .ons-card h3 {
   border-bottom: none;
@@ -319,7 +342,7 @@ section.has-light-background a, section.has-light-background a:hover {
 .ons-card {
   overflow: hidden;
 }
-  
+
 .ons-card__image {
   display: block;
   width: 100%;
@@ -328,7 +351,7 @@ section.has-light-background a, section.has-light-background a:hover {
 }
 
 .g-col-12 .ons-card,
-.g-col-12 > a {
+.g-col-12>a {
   width: 100%;
 }
 
@@ -338,11 +361,12 @@ section.has-light-background a, section.has-light-background a:hover {
   font-size: 80%;
   margin-bottom: 1.3rem;
 }
-.card-text-index { 
-  font-size:75%;
+
+.card-text-index {
+  font-size: 75%;
   font-weight: 100;
-  }
-  
+}
+
 .ons-card__link {
   text-decoration: none;
 }
@@ -361,23 +385,24 @@ section.has-light-background a, section.has-light-background a:hover {
   text-decoration: none;
 }
 
-  #footer {
-    position: fixed;
-    height:60px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: var(--ons-color-banner-bg);
-    color: var(--ons-color-text);
-    text-align: center;
-    font-size: 100%;
-    padding: 16px 10px 10px 10px;
-    z-index: 1040;
-  }
-  #footer a {
-    color: var(--ons-color-text-banner-link);
-    text-decoration: underline;
-  }
+#footer {
+  position: fixed;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--ons-color-banner-bg);
+  color: var(--ons-color-text);
+  text-align: center;
+  font-size: 100%;
+  padding: 16px 10px 10px 10px;
+  z-index: 1040;
+}
+
+#footer a {
+  color: var(--ons-color-text-banner-link);
+  text-decoration: underline;
+}
 
 main#quarto-document-content {
   padding-bottom: 80px;
@@ -526,7 +551,7 @@ main#quarto-document-content {
   }
 }
 
-  
+
 :root {
   --ons-header-height: 179px;
 }
@@ -552,53 +577,52 @@ main#quarto-document-content {
   padding-right: 2rem;
 }
 
-  .carousel-indicators,
-  .carousel-dark .carousel-indicators {
-    width: 25.5rem;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-  }
+.carousel-indicators,
+.carousel-dark .carousel-indicators {
+  width: 25.5rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
 
-  .carousel-indicators::before,
-  .carousel-dark .carousel-indicators::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    height: 2px;
-    transform: translateY(-50%);
-    background-color: $ons-grey50;
-    z-index: 0;
-  }
+.carousel-indicators::before,
+.carousel-dark .carousel-indicators::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  transform: translateY(-50%);
+  background-color: $ons-grey50;
+  z-index: 0;
+}
 
-  .carousel-indicators [data-bs-target],
-  .carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: $ons-night-blue !important;
-    opacity: 1;
-    display: block;
-    width: 10px;
-    height: 10px;
-    margin: 0;
-    border-radius: 50%;
-    border: 2px solid $ons-grey50;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 1;
-  }
+.carousel-indicators [data-bs-target],
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: $ons-night-blue !important;
+  opacity: 1;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  border-radius: 50%;
+  border: 2px solid $ons-grey50;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
 
-  .carousel-indicators .active,
-  .carousel-dark .carousel-indicators .active {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background-color: $ons-night-blue !important;
-    border: 0 !important;
-    box-shadow: 0 0 0 2px $ons-grey50;
-    z-index: 1;
-  }
-
+.carousel-indicators .active,
+.carousel-dark .carousel-indicators .active {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: $ons-night-blue !important;
+  border: 0 !important;
+  box-shadow: 0 0 0 2px $ons-grey50;
+  z-index: 1;
+}
