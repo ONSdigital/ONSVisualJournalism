@@ -111,6 +111,19 @@ a {
     color:$ons-ocean-blue;
 }
 
+.plain-link,
+.plain-link:hover,
+.plain-link:focus,
+.plain-link:active,
+.plain-link:visited,
+.plain_link,
+.plain_link:hover,
+.plain_link:focus,
+.plain_link:active,
+.plain_link:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+}
 
 .navbar-nav .nav-link.show {
   color: $ons-night-blue10
@@ -365,6 +378,153 @@ section.has-light-background a, section.has-light-background a:hover {
     color: var(--ons-color-text-banner-link);
     text-decoration: underline;
   }
+
+main#quarto-document-content {
+  padding-bottom: 80px;
+}
+
+.datatables.html-widget .dataTables_wrapper .dataTables_scrollBody thead tr:last-child {
+  display: none;
+}
+
+.datatables.html-widget table.dataTable {
+  table-layout: fixed !important;
+}
+
+.datatables.html-widget table.dataTable thead th:nth-child(1),
+.datatables.html-widget table.dataTable tbody td:nth-child(1) {
+  width: 300px !important;
+  min-width: 300px !important;
+  max-width: 300px !important;
+}
+
+.datatables.html-widget table.dataTable thead th:nth-child(2),
+.datatables.html-widget table.dataTable tbody td:nth-child(2) {
+  width: 320px !important;
+  min-width: 320px !important;
+  max-width: 320px !important;
+}
+
+.datatables.html-widget table.dataTable thead th:nth-child(3),
+.datatables.html-widget table.dataTable tbody td:nth-child(3),
+.datatables.html-widget table.dataTable thead th:nth-child(4),
+.datatables.html-widget table.dataTable tbody td:nth-child(4) {
+  width: 120px !important;
+  min-width: 120px !important;
+  max-width: 120px !important;
+}
+
+.datatables.html-widget .dataTables_wrapper thead select.library-filter-section,
+.datatables.html-widget .dataTables_wrapper thead select.library-filter-medium {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767.98px) {
+  .library-mobile-controls {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .library-mobile-controls .library-mobile-search,
+  .library-mobile-controls .library-mobile-section {
+    min-height: 40px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .datatables.html-widget {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .datatables.html-widget .dataTables_wrapper {
+    min-width: 84vw;
+  }
+
+  .datatables.html-widget table.dataTable thead th:nth-child(1),
+  .datatables.html-widget table.dataTable tbody td:nth-child(1) {
+    width: 39vw !important;
+    min-width: 39vw !important;
+    max-width: 39vw !important;
+  }
+
+  .datatables.html-widget table.dataTable thead th:nth-child(2),
+  .datatables.html-widget table.dataTable tbody td:nth-child(2) {
+    width: 42vw !important;
+    min-width: 42vw !important;
+    max-width: 42vw !important;
+  }
+
+  .datatables.html-widget table.dataTable thead th,
+  .datatables.html-widget table.dataTable tbody td {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+
+  .datatables.html-widget table.dataTable thead th,
+  .datatables.html-widget table.dataTable tbody td {
+    font-size: 0.9rem;
+  }
+
+  .datatables.html-widget table.dataTable tbody td,
+  .datatables.html-widget table.dataTable tbody td a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .datatables.html-widget .dataTables_wrapper .dataTables_filter input,
+  .datatables.html-widget .dataTables_wrapper .dataTables_length select,
+  .datatables.html-widget .dataTables_wrapper thead input,
+  .datatables.html-widget .dataTables_wrapper thead select {
+    min-height: 40px;
+    font-size: 16px;
+  }
+
+  .datatables.html-widget .dataTables_wrapper .dataTables_length,
+  .datatables.html-widget .dataTables_wrapper .dataTables_filter {
+    float: none;
+    text-align: left;
+  }
+
+  .datatables.html-widget .dataTables_wrapper .dataTables_filter {
+    display: none;
+  }
+
+  .datatables.html-widget .dataTables_wrapper .dataTables_filter label,
+  .datatables.html-widget .dataTables_wrapper .dataTables_length label {
+    display: block;
+    text-align: left;
+  }
+
+  .datatables.html-widget .dataTables_wrapper .dataTables_filter input {
+    margin-left: 0;
+  }
+
+  .datatables.html-widget .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.25em 0.45em;
+  }
+
+  #footer {
+    position: static;
+    height: auto;
+  }
+
+  main#quarto-document-content {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .library-mobile-controls {
+    display: none !important;
+  }
+}
 
   
 :root {

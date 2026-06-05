@@ -10,6 +10,7 @@ suppressPackageStartupMessages(library(DT))
 suppressPackageStartupMessages(library(readr))
 data <- read_csv("data/library.csv", show_col_types = FALSE)
 section_index <- which(names(data) == "Section") - 1
+medium_index <- which(names(data) == "Medium") - 1
 url_index <- which(names(data) == "URL")
 
 if (length(url_index) == 1) {
@@ -26,7 +27,7 @@ if (length(url_index) == 1) {
 
 # Set widths per column (in px). Change these values as needed.
 column_widths <- c(
-	"Name/Alt text" = 300,
+	"Name" = 300,
 	"URL" = 320,
 	"Section" = 120,
 	"Medium" = 120
@@ -46,40 +47,135 @@ DT::datatable(
 	rownames = FALSE,
 	options = list(
 		pageLength = 10,
+		scrollX = TRUE,
 		autoWidth = FALSE,
 		columnDefs = column_defs,
 		initComplete = JS(sprintf(
 			"function() {
 				var api = this.api();
 				var sectionIdx = %d;
-				var headerRows = $(api.table().node()).find('thead tr');
-				var filterRow = headerRows.last();
+				var mediumIdx = %d;
+				var mobileQuery = window.matchMedia('(max-width: 767.98px)');
+				var tableContainer = $(api.table().container());
 
-				if (!filterRow.length || filterRow.find('input').length === 0) {
-					return;
-				}
+				var sectionValues = [];
+				api.column(sectionIdx).data().unique().sort().each(function(d) {
+					if (d !== null && d !== undefined && d !== '') {
+						sectionValues.push(d);
+					}
+				});
 
-				var filterCell = filterRow.find('th').eq(sectionIdx);
-				var existingInput = filterCell.find('input');
+				var mediumValues = [];
+				api.column(mediumIdx).data().unique().sort().each(function(d) {
+					if (d !== null && d !== undefined && d !== '') {
+						mediumValues.push(d);
+					}
+				});
 
-				if (!filterCell.length || !existingInput.length) {
-					return;
-				}
+				var mobileControls = $('<div class=\"library-mobile-controls\"></div>');
+				var mobileSearch = $('<input type=\"search\" class=\"library-mobile-search\" placeholder=\"Search all columns\" aria-label=\"Search library\">')
+					.on('input', function() {
+						api.search($(this).val()).draw();
+					});
 
-				var select = $('<select style=\"width: 100%%;\"><option value=\"\">All</option></select>')
-					.appendTo(filterCell.empty())
+				var mobileSectionSelect = $('<select class=\"library-mobile-section form-control\" aria-label=\"Filter by section\"><option value=\"\">All sections</option></select>')
 					.on('change', function() {
 						var val = $.fn.dataTable.util.escapeRegex($(this).val());
 						api.column(sectionIdx).search(val ? '^' + val + '$' : '', true, false).draw();
 					});
 
-				api.column(sectionIdx).data().unique().sort().each(function(d) {
-					if (d !== null && d !== undefined && d !== '') {
-						select.append('<option value=\"' + d + '\">' + d + '</option>');
+				var mobileMediumSelect = $('<select class=\"library-mobile-medium form-control\" aria-label=\"Filter by medium\"><option value=\"\">All mediums</option></select>')
+					.on('change', function() {
+						var val = $.fn.dataTable.util.escapeRegex($(this).val());
+						api.column(mediumIdx).search(val ? '^' + val + '$' : '', true, false).draw();
+					});
+
+				for (var i = 0; i < sectionValues.length; i++) {
+					mobileSectionSelect.append('<option value=\"' + sectionValues[i] + '\">' + sectionValues[i] + '</option>');
+				}
+
+				for (var m = 0; m < mediumValues.length; m++) {
+					mobileMediumSelect.append('<option value=\"' + mediumValues[m] + '\">' + mediumValues[m] + '</option>');
+				}
+
+				mobileControls.append(mobileSearch, mobileSectionSelect, mobileMediumSelect);
+				tableContainer.before(mobileControls);
+
+				function applyMobileColumnVisibility() {
+					var isMobile = mobileQuery.matches;
+
+					if (sectionIdx >= 0) {
+						api.column(sectionIdx).visible(!isMobile, false);
 					}
-				});
+
+					if (mediumIdx >= 0) {
+						api.column(mediumIdx).visible(!isMobile, false);
+					}
+
+					mobileControls.toggle(isMobile);
+
+					api.columns.adjust().draw(false);
+				}
+
+				applyMobileColumnVisibility();
+				mobileQuery.addEventListener('change', applyMobileColumnVisibility);
+
+				function ensureDesktopDropdownFilters() {
+					var filterRows = tableContainer.find('.dataTables_scrollHead thead tr:last-child, .dataTables_scrollBody thead tr:last-child');
+					if (!filterRows.length) {
+						var headerRows = $(api.table().node()).find('thead tr');
+						filterRows = headerRows.last();
+					}
+
+					if (!filterRows.length) {
+						return;
+					}
+
+					var sectionSearch = api.column(sectionIdx).search().replace(/^\\^/, '').replace(/\\$$/, '');
+					var mediumSearch = api.column(mediumIdx).search().replace(/^\\^/, '').replace(/\\$$/, '');
+
+					filterRows.each(function() {
+						var filterCells = $(this).find('th, td');
+						var sectionCell = filterCells.eq(sectionIdx);
+						var mediumCell = filterCells.eq(mediumIdx);
+
+						if (sectionCell.length) {
+							var sectionSelect = $('<select class=\"library-filter-section form-control\" style=\"width: 100%%;\"><option value=\"\">All</option></select>')
+								.on('change', function() {
+									var val = $.fn.dataTable.util.escapeRegex($(this).val());
+									api.column(sectionIdx).search(val ? '^' + val + '$' : '', true, false).draw();
+								});
+
+							for (var j = 0; j < sectionValues.length; j++) {
+								sectionSelect.append('<option value=\"' + sectionValues[j] + '\">' + sectionValues[j] + '</option>');
+							}
+
+							sectionSelect.val(sectionSearch);
+							sectionCell.empty().append(sectionSelect);
+						}
+
+						if (mediumCell.length) {
+							var mediumSelect = $('<select class=\"library-filter-medium form-control\" style=\"width: 100%%;\"><option value=\"\">All</option></select>')
+								.on('change', function() {
+									var val = $.fn.dataTable.util.escapeRegex($(this).val());
+									api.column(mediumIdx).search(val ? '^' + val + '$' : '', true, false).draw();
+								});
+
+							for (var n = 0; n < mediumValues.length; n++) {
+								mediumSelect.append('<option value=\"' + mediumValues[n] + '\">' + mediumValues[n] + '</option>');
+							}
+
+							mediumSelect.val(mediumSearch);
+							mediumCell.empty().append(mediumSelect);
+						}
+					});
+				}
+
+				ensureDesktopDropdownFilters();
+				api.on('draw.dt', ensureDesktopDropdownFilters);
 			}",
-			section_index
+			section_index,
+			medium_index
 		))
 	)
 )

@@ -8,6 +8,7 @@ website:
   body-header: _includes/header.html
   navbar: false
   favicon: logo.png
+  site-url: https://onsdigital.github.io/ONSVisualJournalism/
 
 format:
   html:
