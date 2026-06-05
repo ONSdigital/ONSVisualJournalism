@@ -12,7 +12,7 @@ Our team focuses on improving the understanding and engagement with ONS analysis
 ::: {.g-col-12 .g-col-md-3}
 <a href="https://analysisfunction.civilservice.gov.uk/news_categories/analysis-in-government-awards/" class="ons-card__link text-decoration-none" >
 <div class="ons-card h-100">
-<img src="images/whoarewe/img_5054.jpg" class="card-img-top ons-card__image ons-u-mb-s ">
+<img src="images/whoarewe/IMG_5054.jpg" class="card-img-top ons-card__image ons-u-mb-s ">
 <div class="card-body d-flex flex-column">
 <h2 class="ons-card__title ons-u-fs-m">Analysis in Government Award</h2>
 <p class="card-subtitle">Census localised content</p>
@@ -25,7 +25,7 @@ Our team focuses on improving the understanding and engagement with ONS analysis
 ::: {.g-col-12 .g-col-md-3}
 <a href="https://analysisfunction.civilservice.gov.uk/news_categories/analysis-in-government-awards/" class="ons-card__link text-decoration-none" >
 <div class="ons-card h-100">
-<img src="images/whoarewe/img_5055.jpg" class="card-img-top ons-card__image ons-u-mb-s ">
+<img src="images/whoarewe/IMG_5055.jpg" class="card-img-top ons-card__image ons-u-mb-s ">
 <div class="card-body d-flex flex-column">
 <h2 class="ons-card__title ons-u-fs-m">Analysis in Government Award</h2>
 <p class="card-subtitle">Launching Explore Local Statistics Beta service</p>
@@ -38,7 +38,7 @@ Our team focuses on improving the understanding and engagement with ONS analysis
 ::: {.g-col-12 .g-col-md-3}
 <a href="https://rss.org.uk/training-events/events/excellence-awards/campion-award-for-excellence-in-official-statistic/" class="ons-card__link text-decoration-none" >
 <div class="ons-card h-100">
-<img src="images/whoarewe/img_5055.jpg" class="card-img-top ons-card__image ons-u-mb-s ">
+<img src="images/whoarewe/IMG_5055.jpg" class="card-img-top ons-card__image ons-u-mb-s ">
 <div class="card-body d-flex flex-column">
 <h2 class="ons-card__title ons-u-fs-m">Campion Award</h2>
 <p class="card-subtitle">ONS 2021 Census Outputs & Dissemination and ONS Digital Publishing Team</p>
