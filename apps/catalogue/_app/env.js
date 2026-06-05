@@ -1,0 +1,2 @@
+//js
+export const env={}
