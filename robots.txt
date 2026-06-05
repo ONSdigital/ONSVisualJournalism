@@ -1,1 +1,1 @@
-Sitemap: https://ONSdigital.github.io/ONSVisualJournalism/sitemap.xml
+Sitemap: https://onsdigital.github.io/ONSVisualJournalism/sitemap.xml

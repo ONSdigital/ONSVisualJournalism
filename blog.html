@@ -195,19 +195,19 @@ ul.task-list li input[type="checkbox"] {
             <a class="ons-navigation__link" href="./"> Home </a>
           </li>
           <li class="ons-navigation__item">
-            <a class="ons-navigation__link" href="./about.html"> About </a>
+            <a class="ons-navigation__link" href="about.html"> About </a>
           </li>
           <li class="ons-navigation__item">
-            <a class="ons-navigation__link" href="./recent.html"> Recent work </a>
+            <a class="ons-navigation__link" href="recent.html"> Recent work </a>
           </li>
           <li class="ons-navigation__item">
-            <a class="ons-navigation__link" href="./resources.html"> Resources </a>
+            <a class="ons-navigation__link" href="resources.html"> Resources </a>
           </li>
           <li class="ons-navigation__item">
-            <a class="ons-navigation__link" href="./cotm.html"> Chart of the month </a>
+            <a class="ons-navigation__link" href="cotm.html"> Chart of the month </a>
           </li>
           <li class="ons-navigation__item">
-            <a class="ons-navigation__link" href="./library.html"> Library </a>
+            <a class="ons-navigation__link" href="library.html"> Library </a>
           </li>
         </ul>
       </nav>
@@ -379,7 +379,7 @@ You can contact us at <a href="mailto:digitalcontent@ons.gov.uk">digitalcontent@
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.onsdigital\.github\.io\/ONSVisualJournalism\/custom");
+        var filterRegex = new RegExp("https:\/\/onsdigital\.github\.io\/ONSVisualJournalism\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
