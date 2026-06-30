@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://onsdigital.github.io/ONSVisualJournalism/cotm.html</loc>
-    <lastmod>2026-06-10T15:26:30.363Z</lastmod>
-  </url>
-  <url>
     <loc>https://onsdigital.github.io/ONSVisualJournalism/index.html</loc>
-    <lastmod>2026-06-10T15:26:30.403Z</lastmod>
-  </url>
-  <url>
-    <loc>https://onsdigital.github.io/ONSVisualJournalism/resources.html</loc>
-    <lastmod>2026-06-10T15:26:30.410Z</lastmod>
+    <lastmod>2026-06-30T09:07:16.613Z</lastmod>
   </url>
   <url>
     <loc>https://onsdigital.github.io/ONSVisualJournalism/about.html</loc>
-    <lastmod>2026-06-10T15:26:30.356Z</lastmod>
-  </url>
-  <url>
-    <loc>https://onsdigital.github.io/ONSVisualJournalism/blog.html</loc>
-    <lastmod>2026-06-10T15:26:30.363Z</lastmod>
-  </url>
-  <url>
-    <loc>https://onsdigital.github.io/ONSVisualJournalism/library.html</loc>
-    <lastmod>2026-06-10T15:26:30.403Z</lastmod>
+    <lastmod>2026-06-30T09:07:16.567Z</lastmod>
   </url>
   <url>
     <loc>https://onsdigital.github.io/ONSVisualJournalism/recent.html</loc>
-    <lastmod>2026-06-10T15:26:30.410Z</lastmod>
+    <lastmod>2026-06-30T09:07:16.620Z</lastmod>
+  </url>
+  <url>
+    <loc>https://onsdigital.github.io/ONSVisualJournalism/library.html</loc>
+    <lastmod>2026-06-30T09:07:16.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://onsdigital.github.io/ONSVisualJournalism/resources.html</loc>
+    <lastmod>2026-06-30T09:07:16.620Z</lastmod>
   </url>
   <url>
     <loc>https://onsdigital.github.io/ONSVisualJournalism/catalogue_test.html</loc>
-    <lastmod>2026-06-10T15:26:30.363Z</lastmod>
+    <lastmod>2026-06-30T09:07:16.574Z</lastmod>
+  </url>
+  <url>
+    <loc>https://onsdigital.github.io/ONSVisualJournalism/cotm.html</loc>
+    <lastmod>2026-06-30T09:07:16.574Z</lastmod>
+  </url>
+  <url>
+    <loc>https://onsdigital.github.io/ONSVisualJournalism/blog.html</loc>
+    <lastmod>2026-06-30T09:07:16.574Z</lastmod>
   </url>
 </urlset>
